@@ -68,7 +68,7 @@ export function DuelRound({ game, onChoose, onHint, onNext }: Props) {
         <div className="flex items-center gap-4">
           <CoinCounter coins={game.coins} />
           <Button variant="outline" size="sm" onClick={onHint} disabled={!canUseHint(game)}>
-            <Sparkles aria-hidden="true" /> Мьюинг за {HINT_COST}
+            <Sparkles aria-hidden="true" /> Подсказка за {HINT_COST}
           </Button>
         </div>
       </div>
@@ -77,7 +77,7 @@ export function DuelRound({ game, onChoose, onHint, onNext }: Props) {
         Где больше белка на калорию?
       </h1>
       <p className="mt-2 flex flex-wrap items-center gap-2 text-muted-foreground">
-        Мьюинг убирает один неверный вариант.
+        КБЖУ откроется после выбора. Подсказка убирает один неверный вариант.
         <Badge variant="secondary">скор = белки × 4 / ккал</Badge>
       </p>
 

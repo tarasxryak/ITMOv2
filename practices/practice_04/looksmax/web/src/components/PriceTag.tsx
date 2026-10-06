@@ -24,7 +24,7 @@ type Props = {
 export function PriceTag({ product, state, revealed, disabled, index, onSelect }: Props) {
   const tone: RulerTone = state === "winner" ? "winner" : state === "wrong" ? "wrong" : "neutral"
   const stamp = STAMP[state]
-  const label = state === "removed" ? `${product.name}, убран мьюингом` : `${product.name}, ${rub(product.price)}`
+  const label = state === "removed" ? `${product.name}, убран подсказкой` : `${product.name}, ${rub(product.price)}`
 
   return (
     <button
@@ -51,7 +51,7 @@ export function PriceTag({ product, state, revealed, disabled, index, onSelect }
         </div>
       </div>
 
-      {revealed ? (
+      {revealed && (
         <div className="px-4 pb-4">
           <div className="flex items-end justify-between gap-2">
             <span className="text-sm text-muted-foreground">белки × 4 / ккал</span>
@@ -72,8 +72,6 @@ export function PriceTag({ product, state, revealed, disabled, index, onSelect }
             ))}
           </dl>
         </div>
-      ) : (
-        <p className="px-4 pb-4 text-sm text-muted-foreground">Белки, жиры и углеводы откроются после выбора</p>
       )}
 
       <div className="tag-strip mt-auto flex items-baseline justify-between gap-2 px-4 py-3">
@@ -94,7 +92,7 @@ export function PriceTag({ product, state, revealed, disabled, index, onSelect }
       )}
       {state === "removed" && (
         <span className="absolute inset-x-0 top-1/3 text-center font-display text-lg font-bold text-foreground" aria-hidden="true">
-          убран мьюингом
+          убран подсказкой
         </span>
       )}
     </button>

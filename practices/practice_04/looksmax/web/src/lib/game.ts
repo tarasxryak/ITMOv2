@@ -1,4 +1,4 @@
-// Состояние игры «Дуэль»: коины, серия, подсказка «мьюинг», ранг. Все функции чистые.
+// Состояние игры «Дуэль»: коины, серия, подсказка, ранг. Все функции чистые.
 import type { Round } from "./duel"
 import type { Product } from "./types"
 
@@ -41,7 +41,7 @@ export type Game = {
   streak: number
   correct: number
   picks: Pick[]
-  // Какой товар убран мьюингом в раунде с таким индексом.
+  // Какой товар убран подсказкой в раунде с таким индексом.
   removed: Record<number, number>
 }
 
@@ -65,7 +65,7 @@ export function choose(state: Game, productId: number): Game {
   const round = state.rounds[state.index]
   if (currentPick(state)) throw new Error("в этом раунде товар уже выбран: нажми «Дальше»")
   if (!round.products.some((p) => p.id === productId)) throw new Error(`товара ${productId} нет в текущем раунде`)
-  if (removedId(state) === productId) throw new Error("этот товар убран мьюингом, выбери из оставшихся")
+  if (removedId(state) === productId) throw new Error("этот товар убран подсказкой, выбери из оставшихся")
   const correct = productId === round.winnerId
   const streak = correct ? state.streak + 1 : 0
   return {
@@ -81,11 +81,11 @@ export function canUseHint(state: Game): boolean {
   return !isFinished(state) && !currentPick(state) && removedId(state) === null && state.coins >= HINT_COST
 }
 
-// Мьюинг: за 15 коинов убирает один случайный неверный вариант раунда.
+// Подсказка: за 15 коинов убирает один случайный неверный вариант раунда.
 export function useHint(state: Game, random: () => number = Math.random): Game {
-  if (removedId(state) !== null) throw new Error("мьюинг в этом раунде уже использован")
-  if (currentPick(state)) throw new Error("товар уже выбран: мьюинг работает только до выбора")
-  if (state.coins < HINT_COST) throw new Error(`для мьюинга нужно ${HINT_COST} коинов, а у тебя ${state.coins}`)
+  if (removedId(state) !== null) throw new Error("подсказка в этом раунде уже использована")
+  if (currentPick(state)) throw new Error("товар уже выбран: подсказка работает только до выбора")
+  if (state.coins < HINT_COST) throw new Error(`для подсказки нужно ${HINT_COST} коинов, а у тебя ${state.coins}`)
   const round = state.rounds[state.index]
   const wrong = round.products.filter((p) => p.id !== round.winnerId)
   const removed = wrong[Math.floor(random() * wrong.length)]

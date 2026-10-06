@@ -94,7 +94,7 @@ describe("ход игры", () => {
   })
 })
 
-describe("подсказка «мьюинг»", () => {
+describe("подсказка", () => {
   // После двух верных: 20 коинов, текущий раунд 2 — товары 21 (победитель), 22, 23.
   const thirdRound = () => nextRound(play([true, true]))
   const first = () => 0
@@ -117,7 +117,7 @@ describe("подсказка «мьюинг»", () => {
   test("недоступна, если коинов меньше 15", () => {
     const state = nextRound(play([true])) // 10 коинов
     expect(canUseHint(state)).toBe(false)
-    expect(() => useHint(state, first)).toThrow(/15/)
+    expect(() => useHint(state, first)).toThrow(/подсказк.*15/)
   })
   test("при балансе ровно 15 доступна и оставляет 0, в минус не уходит", () => {
     // 30 коинов → подсказка → 15, неверный выбор → следующая подсказка → 0.
@@ -134,14 +134,15 @@ describe("подсказка «мьюинг»", () => {
     const state = useHint(nextRound(play([true, true, true])), first)
     expect(state.coins).toBe(20)
     expect(canUseHint(state)).toBe(false)
-    expect(() => useHint(state, first)).toThrow(/уже/)
+    expect(() => useHint(state, first)).toThrow(/подсказк.*уже/)
   })
   test("недоступна после выбора", () => {
     expect(canUseHint(play([true, true]))).toBe(false)
+    expect(() => useHint(play([true, true, true]), first)).toThrow(/подсказк.*до выбора/)
   })
   test("убранный товар нельзя выбрать", () => {
     const state = useHint(thirdRound(), first)
-    expect(() => choose(state, 22)).toThrow(/убран/)
+    expect(() => choose(state, 22)).toThrow(/убран подсказкой/)
   })
   test("не трогает исходное состояние", () => {
     const before = thirdRound()
