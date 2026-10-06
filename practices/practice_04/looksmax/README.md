@@ -38,8 +38,8 @@ sh scripts/check.sh    # тесты Python, типы и тесты фронте�
 
 ## Среда агента
 
-`AGENTS.md` (правила), skills `test-driven-development` и `frontend-design`, MCP `vkusvill` (данные), `looksmax` (свои tools), `shadcn` (компоненты интерфейса), hook, который запускает `scripts/check.sh` после каждой правки. Компоненты shadcn получены через MCP shadcn: журнал вызовов в `docs/evidence/shadcn-mcp.json`, повторить можно `tools/shadcn_fetch.py`. Подтверждения применения среды (навыки, вызовы MCP, hook) по сессиям: [`docs/evidence/summary.md`](docs/evidence/summary.md).
+`AGENTS.md` (правила), skills `test-driven-development` и `frontend-design`, MCP `vkusvill` (данные), `looksmax` (свои tools), `shadcn` (компоненты интерфейса), hook, который запускает `scripts/check.sh` после каждой правки. Компоненты shadcn получены через MCP shadcn: журнал вызовов в `docs/evidence/shadcn-mcp.json`, повторить можно `tools/shadcn_fetch.py`.
 
-## Сдача домашней работы
+## Логи сессий
 
-Что сдавать, чего не хватает и как защищать: [`docs/submission.md`](docs/submission.md).
+Сводка по сессиям агента (какие skills и MCP вызывались, как срабатывал hook): [`docs/evidence/summary.md`](docs/evidence/summary.md).
