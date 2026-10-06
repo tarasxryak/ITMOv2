@@ -5,6 +5,8 @@
 
 /* «Холодильный ряд»: ледяная подложка, хвойный вместо чёрного, жёлтый ценник только для действия. */
 :root {
+  --font-body: "Onest Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Unbounded Variable", "Onest Variable", ui-sans-serif, sans-serif;
   --radius: 0.875rem;
   --background: #e9f0f1;
   --foreground: #0d3b2e;
@@ -37,6 +39,7 @@
 }
 
 .dark {
+  color-scheme: dark;
   --background: #0a1e19;
   --foreground: #e6f2ee;
   --card: #11302a;
@@ -65,9 +68,79 @@
   --spruce: #0d3b2e;
 }
 
+/* Сакура: молочно-розовый фон, сливовый вместо чёрного, розовая полоса цены. Открывается за криптошекели. */
+[data-theme="sakura"] {
+  --font-heading: "Comfortaa Variable", "Onest Variable", ui-sans-serif, sans-serif;
+  --radius: 1.25rem;
+  --radius-tag: 2rem;
+  --background: #fff1f5;
+  --foreground: #4a1f33;
+  --card: #ffffff;
+  --card-foreground: #4a1f33;
+  --popover: #ffffff;
+  --popover-foreground: #4a1f33;
+  --primary: #ffb3cc;
+  --primary-foreground: #4a1f33;
+  --secondary: #fde0ea;
+  --secondary-foreground: #4a1f33;
+  --muted: #fbe4ec;
+  --muted-foreground: #86566a;
+  --accent: #ffd9e6;
+  --accent-foreground: #4a1f33;
+  --destructive: #c0264b;
+  --border: #f1c4d3;
+  --input: #f1c4d3;
+  --ring: #d94f7c;
+  --fresh: #3f8f5e;
+  --fresh-soft: #e2f4e8;
+  --fresh-ink: #1f6b3d;
+  --tomato: #c0264b;
+  --tomato-soft: #fde1e8;
+  --tomato-ink: #9b1c3b;
+  --coin: #f7a1bf;
+  --spruce: #4a1f33;
+  --tag: #ffc2d8;
+}
+
+/* Cyberpunk: чёрный с фиолетовым оттенком, жёлтый и циан. Класс dark тоже стоит, чтобы работали dark: варианты. */
+[data-theme="cyberpunk"] {
+  color-scheme: dark;
+  --font-body: "Exo 2 Variable", "Onest Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Tektur Variable", "Onest Variable", ui-sans-serif, sans-serif;
+  --radius: 0.35rem;
+  --radius-tag: 0.35rem;
+  --background: #0b0a12;
+  --foreground: #f2f0fa;
+  --card: #15131f;
+  --card-foreground: #f2f0fa;
+  --popover: #15131f;
+  --popover-foreground: #f2f0fa;
+  --primary: #fcee0a;
+  --primary-foreground: #0b0a12;
+  --secondary: #1f1c2e;
+  --secondary-foreground: #f2f0fa;
+  --muted: #1b1929;
+  --muted-foreground: #a19cbd;
+  --accent: #2a2540;
+  --accent-foreground: #fcee0a;
+  --destructive: #ff2a6d;
+  --border: #2f3a55;
+  --input: #2f3a55;
+  --ring: #00f0ff;
+  --fresh: #2cff8a;
+  --fresh-soft: #0d3326;
+  --fresh-ink: #7dffb7;
+  --tomato: #ff2a6d;
+  --tomato-soft: #3b1020;
+  --tomato-ink: #ff7aa3;
+  --coin: #fcee0a;
+  --spruce: #0b0a12;
+  --tag: #fcee0a;
+}
+
 @theme inline {
-  --font-sans: "Onest Variable", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Unbounded Variable", "Onest Variable", ui-sans-serif, sans-serif;
+  --font-sans: var(--font-body);
+  --font-display: var(--font-heading);
 
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -175,6 +248,79 @@
     pointer-events: none;
   }
 
+  /* Обычная панель: строки улучшений, плитки статистики, карточки тем. Темы переопределяют её форму. */
+  .panel {
+    background: var(--card);
+    border: 1.5px solid var(--border);
+    border-radius: 1rem;
+  }
+
+  /* Монета кликера. */
+  .coin-button {
+    display: grid;
+    place-items: center;
+    width: 15rem;
+    height: 15rem;
+    cursor: pointer;
+    border-radius: 9999px;
+    border: 8px solid var(--spruce);
+    color: var(--spruce);
+    font-family: var(--font-heading);
+    font-size: 7rem;
+    font-weight: 900;
+    line-height: 1;
+    background: radial-gradient(
+      circle at 32% 28%,
+      color-mix(in oklab, var(--coin) 55%, white),
+      var(--coin) 52%,
+      color-mix(in oklab, var(--coin) 72%, black)
+    );
+    box-shadow:
+      0 10px 0 var(--spruce),
+      inset -10px -12px 0 rgb(0 0 0 / 0.12);
+    transition:
+      transform 0.06s ease,
+      box-shadow 0.06s ease;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .coin-button:active {
+    transform: translateY(8px) scale(0.97);
+    box-shadow:
+      0 2px 0 var(--spruce),
+      inset -6px -8px 0 rgb(0 0 0 / 0.12);
+  }
+  .coin-popup {
+    animation: coin-popup 0.8s ease-out forwards;
+  }
+  @keyframes coin-popup {
+    from {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(0.9);
+    }
+    to {
+      opacity: 0;
+      transform: translate(-50%, -200%) scale(1.25);
+    }
+  }
+  .petal {
+    position: absolute;
+    top: -6vh;
+    border-radius: 100% 0 100% 0;
+    background: linear-gradient(135deg, #ffd6e4, #ff9dbd);
+    opacity: 0.8;
+    animation: petal-fall linear infinite;
+    will-change: transform;
+  }
+  @keyframes petal-fall {
+    from {
+      transform: translate3d(0, 0, 0) rotate(0deg);
+    }
+    to {
+      transform: translate3d(var(--drift), 112vh, 0) rotate(540deg);
+    }
+  }
+
   /* Чек: зубчатый нижний край. */
   .receipt {
     --tooth: 9px;
@@ -188,6 +334,78 @@
         var(--tooth) repeat-x,
       linear-gradient(#000 0 0) top / 100% calc(100% - var(--tooth)) no-repeat;
   }
+}
+
+/* Оформление тем, которое не сводится к цветам. Лежит вне слоёв, чтобы перебивать .tag-card и кнопки. */
+[data-theme="sakura"] body {
+  background-image:
+    radial-gradient(900px 420px at 100% -80px, #ffd3e2, transparent 70%),
+    radial-gradient(800px 420px at -10% 105%, #ffdce8, transparent 70%);
+  background-attachment: fixed;
+}
+[data-theme="sakura"] .panel {
+  border-width: 2px;
+  border-radius: 1.4rem;
+}
+[data-theme="sakura"] .tag-card {
+  border-width: 2px;
+  box-shadow: 0 14px 28px -18px rgb(217 79 124 / 0.55);
+}
+
+[data-theme="cyberpunk"] body {
+  background-image:
+    linear-gradient(rgb(0 240 255 / 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(0 240 255 / 0.05) 1px, transparent 1px),
+    radial-gradient(900px 420px at 85% -80px, rgb(255 42 109 / 0.22), transparent 70%),
+    radial-gradient(800px 400px at 0% 0%, rgb(0 240 255 / 0.12), transparent 70%);
+  background-size: 44px 44px, 44px 44px, auto, auto;
+  background-attachment: fixed;
+}
+/* Сканлайны поверх всего, едва заметные. */
+[data-theme="cyberpunk"] body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 70;
+  pointer-events: none;
+  background: repeating-linear-gradient(to bottom, rgb(255 255 255 / 0.03) 0 1px, transparent 1px 3px);
+}
+/* Хроматическая аберрация на крупных заголовках: красный и циановый сдвиг. */
+[data-theme="cyberpunk"] h1 {
+  text-shadow:
+    2px 0 rgb(255 42 109 / 0.85),
+    -2px 0 rgb(0 240 255 / 0.85);
+}
+/* Срезанные углы вместо одинаковых скруглений, неоновая обводка. */
+[data-theme="cyberpunk"] .tag-card {
+  border-radius: 0.3rem 1.6rem 0.3rem 1.6rem;
+  border-color: rgb(0 240 255 / 0.5);
+  box-shadow:
+    0 0 0 1px rgb(0 240 255 / 0.12),
+    0 0 26px -8px rgb(0 240 255 / 0.55);
+}
+[data-theme="cyberpunk"] .panel {
+  border-radius: 0.3rem 1.2rem 0.3rem 1.2rem;
+  border-color: rgb(0 240 255 / 0.4);
+  box-shadow: 0 0 22px -10px rgb(0 240 255 / 0.5);
+}
+[data-theme="cyberpunk"] .tag-card::before {
+  background: var(--background);
+  border-color: rgb(0 240 255 / 0.6);
+}
+[data-theme="cyberpunk"] .receipt {
+  border-color: rgb(0 240 255 / 0.5);
+}
+[data-theme="cyberpunk"] [data-slot="button"][data-variant="default"] {
+  border-radius: 0.2rem 0.9rem 0.2rem 0.9rem;
+  font-weight: 700;
+  box-shadow: 0 0 22px -2px rgb(252 238 10 / 0.55);
+}
+[data-theme="cyberpunk"] .coin-button {
+  box-shadow:
+    0 10px 0 var(--spruce),
+    0 0 70px -6px rgb(252 238 10 / 0.6),
+    inset -10px -12px 0 rgb(0 0 0 / 0.12);
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -34,14 +34,14 @@ function play(answers: boolean[]) {
   return state
 }
 
-describe("лукс-коины", () => {
-  test("игра стартует с нулём коинов", () => {
+describe("криптошекели", () => {
+  test("игра стартует с нулём криптошекелей", () => {
     expect(createGame(ROUNDS).coins).toBe(0)
   })
   test("верный выбор даёт +10", () => {
     expect(play([true]).coins).toBe(10)
   })
-  test("неверный выбор не даёт коинов", () => {
+  test("неверный выбор не даёт криптошекелей", () => {
     expect(play([false]).coins).toBe(0)
   })
   test("третий верный подряд даёт ещё +5", () => {
@@ -95,7 +95,7 @@ describe("ход игры", () => {
 })
 
 describe("подсказка", () => {
-  // После двух верных: 20 коинов, текущий раунд 2 — товары 21 (победитель), 22, 23.
+  // После двух верных: 20 криптошекелей, текущий раунд 2 — товары 21 (победитель), 22, 23.
   const thirdRound = () => nextRound(play([true, true]))
   const first = () => 0
   const last = () => 0.99
@@ -107,20 +107,20 @@ describe("подсказка", () => {
   test("никогда не убирает победителя", () => {
     for (let i = 0; i < 20; i++) expect(removedId(useHint(thirdRound(), () => i / 20))).not.toBe(21)
   })
-  test("стоит 15 коинов", () => {
+  test("стоит 15 криптошекелей", () => {
     expect(HINT_COST).toBe(15)
     expect(useHint(thirdRound(), first).coins).toBe(5)
   })
   test("до подсказки в раунде ничего не убрано", () => {
     expect(removedId(thirdRound())).toBeNull()
   })
-  test("недоступна, если коинов меньше 15", () => {
-    const state = nextRound(play([true])) // 10 коинов
+  test("недоступна, если криптошекелей меньше 15", () => {
+    const state = nextRound(play([true])) // 10 криптошекелей
     expect(canUseHint(state)).toBe(false)
     expect(() => useHint(state, first)).toThrow(/подсказк.*15/)
   })
   test("при балансе ровно 15 доступна и оставляет 0, в минус не уходит", () => {
-    // 30 коинов → подсказка → 15, неверный выбор → следующая подсказка → 0.
+    // 30 криптошекелей → подсказка → 15, неверный выбор → следующая подсказка → 0.
     let state = nextRound(play([true, false, true, false, true]))
     state = useHint(state, last)
     expect(state.coins).toBe(15)
@@ -140,6 +140,17 @@ describe("подсказка", () => {
     expect(canUseHint(play([true, true]))).toBe(false)
     expect(() => useHint(play([true, true, true]), first)).toThrow(/подсказк.*до выбора/)
   })
+  test("доступность считается по общему кошельку, если его баланс передан", () => {
+    const fresh = createGame(ROUNDS) // за эту игру заработано 0
+    expect(canUseHint(fresh)).toBe(false)
+    expect(canUseHint(fresh, 100)).toBe(true)
+    expect(canUseHint(fresh, 14)).toBe(false)
+  })
+  test("подсказка за счёт кошелька: баланс игры уходит в минус, кошелёк решает, хватает ли", () => {
+    const fresh = createGame(ROUNDS)
+    expect(useHint(fresh, first, 20).coins).toBe(-HINT_COST)
+    expect(() => useHint(fresh, first, 10)).toThrow(/подсказк.*15.*у тебя 10/)
+  })
   test("убранный товар нельзя выбрать", () => {
     const state = useHint(thirdRound(), first)
     expect(() => choose(state, 22)).toThrow(/убран подсказкой/)
@@ -153,7 +164,7 @@ describe("подсказка", () => {
 })
 
 describe("итог", () => {
-  test("процент, ранг, коины и выбранные товары", () => {
+  test("процент, ранг, криптошекели и выбранные товары", () => {
     const state = nextRound(play([true, false, true, true, false, true, true, true, false, true]))
     const done = { ...state, index: ROUNDS.length }
     const result = summary(done)

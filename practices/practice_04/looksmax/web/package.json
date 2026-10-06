@@ -11,7 +11,10 @@
     "check": "tsc --noEmit && vitest run"
   },
   "dependencies": {
+    "@fontsource-variable/comfortaa": "^5.3.0",
+    "@fontsource-variable/exo-2": "^5.3.0",
     "@fontsource-variable/onest": "^5.3.1",
+    "@fontsource-variable/tektur": "^5.3.0",
     "@fontsource-variable/unbounded": "^5.3.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",

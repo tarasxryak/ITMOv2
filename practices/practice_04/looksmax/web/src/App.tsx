@@ -7,9 +7,12 @@ import { Tabs, TabsContent } from "@/components/ui/tabs"
 import { TooltipProvider } from "@/components/ui/tooltip"
 import { Header } from "@/components/Header"
 import type { Mode } from "@/components/RulesDialog"
+import { ThemeDecor } from "@/components/ThemeDecor"
 import { BasketGame } from "@/games/basket/BasketGame"
+import { ClickerGame } from "@/games/clicker/ClickerGame"
 import { DuelGame } from "@/games/duel/DuelGame"
 import { useCatalog } from "@/hooks/useCatalog"
+import { useApplyTheme, useIncomeLoop } from "@/hooks/useProfile"
 import { plural } from "@/lib/format"
 import { rngFromLocation } from "@/lib/seed"
 
@@ -26,6 +29,8 @@ function Loading() {
 export default function App() {
   const [mode, setMode] = useState<Mode>("duel")
   const state = useCatalog()
+  useIncomeLoop()
+  useApplyTheme()
   // Один генератор на сессию: с ?seed=N вся сессия воспроизводима.
   const rng = useMemo(() => rngFromLocation(), [])
 
@@ -38,11 +43,12 @@ export default function App() {
         >
           Перейти к игре
         </a>
+        <ThemeDecor />
         <Tabs value={mode} onValueChange={(value) => setMode(value as Mode)} className="min-h-dvh gap-0">
           <Header mode={mode} />
           <main id="game" className="flex-1">
-            {state.status === "loading" && <Loading />}
-            {state.status === "error" && (
+            {mode !== "clicker" && state.status === "loading" && <Loading />}
+            {mode !== "clicker" && state.status === "error" && (
               <div className="mx-auto w-full max-w-6xl px-4 py-10">
                 <Alert variant="destructive">
                   <TriangleAlert aria-hidden="true" />
@@ -51,6 +57,10 @@ export default function App() {
                 </Alert>
               </div>
             )}
+            {/* Кликер не зависит от каталога товаров: он доступен, даже если каталог не загрузился. */}
+            <TabsContent value="clicker" forceMount className="data-[state=inactive]:hidden">
+              <ClickerGame />
+            </TabsContent>
             {state.status === "ready" && (
               <>
                 <TabsContent value="duel" forceMount className="data-[state=inactive]:hidden">

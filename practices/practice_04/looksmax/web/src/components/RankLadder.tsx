@@ -9,7 +9,7 @@ const LADDER = [...RANKS].reverse().map((rank, i, reversed) => {
 
 export function RankLadder({ current }: { current: RankName }) {
   return (
-    <ol className="overflow-hidden rounded-xl border-[1.5px] border-border bg-card" aria-label="Лестница рангов">
+    <ol className="panel overflow-hidden" aria-label="Лестница рангов">
       {LADDER.map((rank) => {
         const active = rank.name === current
         return (

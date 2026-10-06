@@ -1,6 +1,7 @@
 // Скриншот игры в headless Chrome с действиями перед снимком.
 // Запуск: node tools/screenshot.mjs ВЫХОД.png ШИРИНА ВЫСОТА [JS-шаг ...]
 // Каждый JS-шаг выполняется на странице по очереди, между шагами пауза 400 мс.
+// Что шаг вернул (строка, число, объект), печатается: так шаги работают как проверки.
 // Игра раздаётся с http://127.0.0.1:8765 (.venv/bin/python serve.py после npm run build в web/).
 // Адрес можно сменить через LOOKSMAX_URL, например http://127.0.0.1:8765/?seed=7 для воспроизводимых раундов.
 // Браузер: CHROME_PATH, иначе первый найденный Chrome/Chromium (macOS, Linux, Playwright).
@@ -74,6 +75,7 @@ try {
   for (const step of steps) {
     const res = await send("Runtime.evaluate", { expression: step, awaitPromise: true, returnByValue: true });
     if (res.result?.exceptionDetails) console.error("шаг упал:", step, res.result.exceptionDetails.exception?.description);
+    else if (res.result?.result?.value !== undefined) console.log("шаг вернул:", JSON.stringify(res.result.result.value));
     await sleep(400);
   }
   await sleep(1200);

@@ -1,4 +1,4 @@
-// Состояние игры «Дуэль»: коины, серия, подсказка, ранг. Все функции чистые.
+// Состояние игры «Дуэль»: криптошекели за эту игру, серия, подсказка, ранг. Все функции чистые.
 import type { Round } from "./duel"
 import type { Product } from "./types"
 
@@ -77,15 +77,16 @@ export function choose(state: Game, productId: number): Game {
   }
 }
 
-export function canUseHint(state: Game): boolean {
-  return !isFinished(state) && !currentPick(state) && removedId(state) === null && state.coins >= HINT_COST
+// balance — кошелёк игрока (криптошекели общие для всех игр). Без него считаем по заработанному в этой игре.
+export function canUseHint(state: Game, balance: number = state.coins): boolean {
+  return !isFinished(state) && !currentPick(state) && removedId(state) === null && balance >= HINT_COST
 }
 
-// Подсказка: за 15 коинов убирает один случайный неверный вариант раунда.
-export function useHint(state: Game, random: () => number = Math.random): Game {
+// Подсказка: за 15 криптошекелей убирает один случайный неверный вариант раунда.
+export function useHint(state: Game, random: () => number = Math.random, balance: number = state.coins): Game {
   if (removedId(state) !== null) throw new Error("подсказка в этом раунде уже использована")
   if (currentPick(state)) throw new Error("товар уже выбран: подсказка работает только до выбора")
-  if (state.coins < HINT_COST) throw new Error(`для подсказки нужно ${HINT_COST} коинов, а у тебя ${state.coins}`)
+  if (balance < HINT_COST) throw new Error(`для подсказки нужно ${HINT_COST} криптошекелей, а у тебя ${Math.floor(balance)}`)
   const round = state.rounds[state.index]
   const wrong = round.products.filter((p) => p.id !== round.winnerId)
   const removed = wrong[Math.floor(random() * wrong.length)]

@@ -18,7 +18,7 @@ export function ProductImage({ product, className }: { product: Product; classNa
   if (!product.image || failed) {
     return (
       <div
-        className={cn("flex aspect-square flex-col items-start justify-between rounded-2xl p-3 text-spruce", className)}
+        className={cn("flex aspect-square flex-col items-start justify-between rounded-2xl p-3 text-spruce dark:brightness-[.78] dark:saturate-75", className)}
         style={{ background: tintFor(product) }}
         aria-hidden="true"
       >

@@ -4,7 +4,7 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, Di
 import { HINT_COST } from "@/lib/game"
 import { KCAL_CAP, MAX_PER_CATEGORY, POOL_SIZE } from "@/lib/basket"
 
-export type Mode = "duel" | "basket"
+export type Mode = "duel" | "basket" | "clicker"
 
 export function RulesDialog({ mode }: { mode: Mode }) {
   return (
@@ -17,20 +17,29 @@ export function RulesDialog({ mode }: { mode: Mode }) {
       <DialogContent>
         <DialogHeader>
           <DialogTitle className="font-display text-xl font-extrabold">
-            {mode === "duel" ? "Как играть в дуэль" : "Как играть в корзину"}
+            {{ duel: "Как играть в дуэль", basket: "Как играть в корзину", clicker: "Как играть в кликер" }[mode]}
           </DialogTitle>
           <DialogDescription>
-            {mode === "duel"
-              ? "Десять раундов, в каждом три случайных товара ВкусВилла из разных категорий."
-              : `Тебе дают ${POOL_SIZE} случайных товаров и бюджет. Нужно набрать корзину с максимумом белка.`}
+            {{
+              duel: "Десять раундов, в каждом три случайных товара ВкусВилла из разных категорий.",
+              basket: `Тебе дают ${POOL_SIZE} случайных товаров и бюджет. Нужно набрать корзину с максимумом белка.`,
+              clicker: "Криптошекели общие для всех игр: заработал в одной, потратил в другой.",
+            }[mode]}
           </DialogDescription>
         </DialogHeader>
-        {mode === "duel" ? (
+        {mode === "clicker" ? (
+          <ul className="list-disc space-y-2 pl-5 text-sm">
+            <li>Каждый клик по монете даёт криптошекели. Улучшение «Сила клика» добавляет по одному за клик.</li>
+            <li>Автокликеры дают криптошекели каждую секунду, пока открыта страница. Каждая следующая копия дороже предыдущей на 15 %.</li>
+            <li>За криптошекели покупаются темы сайта: Сакура и Cyberpunk. Купленная тема включается сразу.</li>
+            <li>Прогресс и темы хранятся в этом браузере.</li>
+          </ul>
+        ) : mode === "duel" ? (
           <ul className="list-disc space-y-2 pl-5 text-sm">
             <li>Выбери товар, в котором больше белка на калорию. Скор = белки × 4 / ккал: доля калорий, которая приходится на белок.</li>
             <li>Победитель в раунде один: его скор выше второго места минимум на 0,03.</li>
-            <li>Верный ответ даёт 10 лукс-коинов, а начиная с третьего верного подряд ещё 5 за каждый.</li>
-            <li>Подсказка за {HINT_COST} коинов убирает один неверный вариант. Баланс в минус не уходит.</li>
+            <li>Верный ответ даёт 10 криптошекелей, а начиная с третьего верного подряд ещё 5 за каждый.</li>
+            <li>Подсказка за {HINT_COST} криптошекелей убирает один неверный вариант. Баланс в минус не уходит.</li>
             <li>В конце ты получаешь ранг от sub3 до true adam и корзину из своих выборов.</li>
           </ul>
         ) : (

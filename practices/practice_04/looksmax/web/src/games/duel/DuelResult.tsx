@@ -4,13 +4,13 @@ import { Button } from "@/components/ui/button"
 import { CartAction } from "@/components/CartAction"
 import { RankLadder } from "@/components/RankLadder"
 import type { CartState } from "@/hooks/useCart"
-import { coinsWord, num, rub } from "@/lib/format"
+import { formatShekels, num, rub, shekelsWord } from "@/lib/format"
 import { summary, type Game } from "@/lib/game"
 import { cn } from "@/lib/utils"
 
-type Props = { game: Game; cart: CartState; onCart: () => void; onRestart: () => void }
+type Props = { game: Game; balance: number; cart: CartState; onCart: () => void; onRestart: () => void }
 
-export function DuelResult({ game, cart, onCart, onRestart }: Props) {
+export function DuelResult({ game, balance, cart, onCart, onRestart }: Props) {
   const result = summary(game)
   const total = result.picked.reduce((sum, p) => sum + p.price, 0)
 
@@ -27,15 +27,20 @@ export function DuelResult({ game, cart, onCart, onRestart }: Props) {
             {result.rank}
           </h1>
           <p className="mt-4 text-lg">
-            <strong className="font-display tabular-nums">{result.percent}%</strong> верных: {result.correct} из {result.total}. На счету{" "}
-            <strong className="font-display tabular-nums">{result.coins}</strong> {coinsWord(result.coins)}.
+            <strong className="font-display tabular-nums">{result.percent}%</strong> верных: {result.correct} из {result.total}. За игру{" "}
+            <strong className="font-display tabular-nums">
+              {result.coins >= 0 ? "+" : "−"}
+              {Math.abs(result.coins)}
+            </strong>{" "}
+            {shekelsWord(Math.abs(result.coins))}, на счету{" "}
+            <strong className="font-display tabular-nums">{formatShekels(balance)}</strong>.
           </p>
           <Button variant="outline" size="lg" className="mt-5" onClick={onRestart}>
             <RotateCcw aria-hidden="true" /> Сыграть ещё раз
           </Button>
         </div>
 
-        <div className="rounded-2xl border-[1.5px] border-border bg-card p-5 sm:p-6">
+        <div className="panel p-5 sm:p-6">
           <h2 className="font-display text-2xl font-extrabold">Твоя корзина</h2>
           <p className="mt-1 text-sm text-muted-foreground">
             Твои выборы за {result.total} раундов, по одной штуке каждого.

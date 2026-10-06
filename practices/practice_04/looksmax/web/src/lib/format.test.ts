@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest"
-import { coinsWord, num, plural, rub } from "./format"
+import { formatRate, formatShekels, num, plural, rub, shekelsWord } from "./format"
 
 const flat = (s: string) => s.replace(/\s/g, " ")
 
@@ -25,7 +25,37 @@ describe("форматирование", () => {
     expect(num(98.6, 1)).toBe("98,6")
   })
 
-  test("слово «коин» согласуется с числом", () => {
-    expect([1, 2, 5, 15, 21].map(coinsWord)).toEqual(["коин", "коина", "коинов", "коинов", "коин"])
+  test("слово «криптошекель» согласуется с числом", () => {
+    expect([1, 2, 5, 11, 21, 22, 100].map(shekelsWord)).toEqual([
+      "криптошекель", "криптошекеля", "криптошекелей", "криптошекелей", "криптошекель", "криптошекеля", "криптошекелей",
+    ])
+  })
+})
+
+describe("formatShekels", () => {
+  test.each([
+    [0, "0"],
+    [0.9, "0"],
+    [999, "999"],
+    [1234, "1 234"],
+    [999999, "999 999"],
+    [1_000_000, "1 млн"],
+    [1_234_567, "1,23 млн"],
+    [12_500_000, "12,5 млн"],
+    [3_400_000_000, "3,4 млрд"],
+    [2_000_000_000_000, "2 трлн"],
+  ])("%d → %s", (value, text) => {
+    expect(flat(formatShekels(value))).toBe(text)
+  })
+})
+
+describe("formatRate", () => {
+  test.each([
+    [0.1, "0,1"],
+    [47, "47"],
+    [1234.5, "1 234,5"],
+    [2_500_000, "2,5 млн"],
+  ])("%d → %s", (value, text) => {
+    expect(flat(formatRate(value))).toBe(text)
   })
 })

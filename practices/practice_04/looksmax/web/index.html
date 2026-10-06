@@ -14,11 +14,13 @@
       href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%230D3B2E'/%3E%3Ccircle cx='16' cy='8' r='2.6' fill='%23E9F0F1'/%3E%3Crect x='6' y='15' width='20' height='10' rx='3' fill='%23FFD23F'/%3E%3C/svg%3E"
     />
     <script>
-      // Тема выставляется до первой отрисовки, чтобы страница не мигала.
+      // Тема из профиля применяется до первой отрисовки, чтобы страница не мигала светлым.
       try {
-        var saved = localStorage.getItem("looksmax-theme")
-        var dark = saved ? saved === "dark" : matchMedia("(prefers-color-scheme: dark)").matches
-        document.documentElement.classList.toggle("dark", dark)
+        var saved = JSON.parse(localStorage.getItem("looksmax-profile") || "null")
+        var theme = saved && ["light", "dark", "sakura", "cyberpunk"].indexOf(saved.theme) >= 0 ? saved.theme : "light"
+        var root = document.documentElement
+        if (theme === "sakura" || theme === "cyberpunk") root.setAttribute("data-theme", theme)
+        root.classList.toggle("dark", theme === "dark" || theme === "cyberpunk")
       } catch (e) {}
     </script>
   </head>

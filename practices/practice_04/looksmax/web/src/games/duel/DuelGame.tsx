@@ -1,9 +1,11 @@
-import { useCallback, useState } from "react"
+import { useState } from "react"
 import { TriangleAlert } from "lucide-react"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { useCart } from "@/hooks/useCart"
+import { updateProfile, useProfile } from "@/hooks/useProfile"
 import { drawRounds } from "@/lib/duel"
-import { choose, createGame, isFinished, nextRound, summary, useHint as applyHint, type Game } from "@/lib/game"
+import { choose, createGame, HINT_COST, isFinished, nextRound, summary, useHint as applyHint, type Game } from "@/lib/game"
+import { earn, spend } from "@/lib/profile"
 import type { Rng } from "@/lib/rng"
 import type { Product } from "@/lib/types"
 import { DuelResult } from "./DuelResult"
@@ -19,13 +21,11 @@ function newGame(catalog: Product[], rng: Rng): { game: Game } | { error: string
   }
 }
 
+// Криптошекели общие для всех игр: награда и трата подсказки идут через профиль, а не через счёт этой игры.
 export function DuelGame({ catalog, rng }: { catalog: Product[]; rng: Rng }) {
   const [state, setState] = useState(() => newGame(catalog, rng))
+  const balance = useProfile((p) => p.balance)
   const { cart, submit, reset } = useCart()
-
-  const update = useCallback((change: (game: Game) => Game) => {
-    setState((current) => ("game" in current ? { game: change(current.game) } : current))
-  }, [])
 
   if ("error" in state) {
     return (
@@ -40,10 +40,25 @@ export function DuelGame({ catalog, rng }: { catalog: Product[]; rng: Rng }) {
   }
 
   const { game } = state
+
+  const onChoose = (productId: number) => {
+    const next = choose(game, productId)
+    setState({ game: next })
+    const reward = next.coins - game.coins
+    if (reward > 0) updateProfile((p) => earn(p, reward))
+  }
+
+  const onHint = () => {
+    const next = applyHint(game, Math.random, balance)
+    if (!updateProfile((p) => spend(p, HINT_COST)).ok) return
+    setState({ game: next })
+  }
+
   if (isFinished(game)) {
     return (
       <DuelResult
         game={game}
+        balance={balance}
         cart={cart}
         onCart={() => submit(summary(game).xmlIds)}
         onRestart={() => {
@@ -53,12 +68,5 @@ export function DuelGame({ catalog, rng }: { catalog: Product[]; rng: Rng }) {
       />
     )
   }
-  return (
-    <DuelRound
-      game={game}
-      onChoose={(id) => update((g) => choose(g, id))}
-      onHint={() => update((g) => applyHint(g))}
-      onNext={() => update(nextRound)}
-    />
-  )
+  return <DuelRound game={game} balance={balance} onChoose={onChoose} onHint={onHint} onNext={() => setState({ game: nextRound(game) })} />
 }

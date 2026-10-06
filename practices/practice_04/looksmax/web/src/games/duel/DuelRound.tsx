@@ -2,14 +2,15 @@ import { useEffect, useRef } from "react"
 import { Sparkles } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { CoinCounter } from "@/components/CoinCounter"
 import { PriceTag, type TagState } from "@/components/PriceTag"
-import { coinsWord, num } from "@/lib/format"
+import { shekelsWord, num } from "@/lib/format"
 import { canUseHint, coinsForCorrect, currentPick, HINT_COST, removedId, STREAK_FROM, type Game } from "@/lib/game"
 import { cn } from "@/lib/utils"
 
 type Props = {
   game: Game
+  /** Кошелёк игрока: от него зависит, хватает ли на подсказку. */
+  balance: number
   onChoose: (productId: number) => void
   onHint: () => void
   onNext: () => void
@@ -41,7 +42,7 @@ function RoundProgress({ game }: { game: Game }) {
   )
 }
 
-export function DuelRound({ game, onChoose, onHint, onNext }: Props) {
+export function DuelRound({ game, balance, onChoose, onHint, onNext }: Props) {
   const round = game.rounds[game.index]
   const pick = currentPick(game)
   const removed = removedId(game)
@@ -65,12 +66,9 @@ export function DuelRound({ game, onChoose, onHint, onNext }: Props) {
     <section className="mx-auto w-full max-w-6xl px-4 pb-20">
       <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-3 py-5">
         <RoundProgress game={game} />
-        <div className="flex items-center gap-4">
-          <CoinCounter coins={game.coins} />
-          <Button variant="outline" size="sm" onClick={onHint} disabled={!canUseHint(game)}>
-            <Sparkles aria-hidden="true" /> Подсказка за {HINT_COST}
-          </Button>
-        </div>
+        <Button variant="outline" size="sm" onClick={onHint} disabled={!canUseHint(game, balance)}>
+          <Sparkles aria-hidden="true" /> Подсказка за {HINT_COST}
+        </Button>
       </div>
 
       <h1 ref={headingRef} tabIndex={-1} className="font-display text-3xl font-extrabold leading-tight outline-none sm:text-4xl">
@@ -107,7 +105,7 @@ export function DuelRound({ game, onChoose, onHint, onNext }: Props) {
               <p className="font-display text-2xl font-extrabold">{pick.correct ? "Мог!" : "Мимо."}</p>
               <p className="mt-1 text-base">
                 {pick.correct
-                  ? `+${coinsForCorrect(game.streak)} ${coinsWord(coinsForCorrect(game.streak))}${game.streak >= STREAK_FROM ? `, серия ${game.streak} подряд` : ""}`
+                  ? `+${coinsForCorrect(game.streak)} ${shekelsWord(coinsForCorrect(game.streak))}${game.streak >= STREAK_FROM ? `, серия ${game.streak} подряд` : ""}`
                   : `Лучше был «${winner.name}»: скор ${num(winner.score, 3)}`}
               </p>
             </div>
