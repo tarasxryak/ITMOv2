@@ -1,14 +1,33 @@
 // Скриншот игры в headless Chrome с действиями перед снимком.
 // Запуск: node tools/screenshot.mjs ВЫХОД.png ШИРИНА ВЫСОТА [JS-шаг ...]
 // Каждый JS-шаг выполняется на странице по очереди, между шагами пауза 400 мс.
-// Игра раздаётся с http://127.0.0.1:8765 (python3 -m http.server 8765 -d web).
+// Игра раздаётся с http://127.0.0.1:8765 (.venv/bin/python serve.py после npm run build в web/).
+// Адрес можно сменить через LOOKSMAX_URL, например http://127.0.0.1:8765/?seed=7 для воспроизводимых раундов.
+// Браузер: CHROME_PATH, иначе первый найденный Chrome/Chromium (macOS, Linux, Playwright).
 // Страница снимается целиком, по полной высоте документа.
 import { spawn } from "node:child_process";
-import { mkdtempSync, writeFileSync } from "node:fs";
+import { existsSync, mkdtempSync, readdirSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 
-const CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
+function findChrome() {
+  const playwright = process.env.PLAYWRIGHT_BROWSERS_PATH;
+  const bundled = playwright && existsSync(playwright)
+    ? readdirSync(playwright).filter((d) => d.startsWith("chromium-")).map((d) => join(playwright, d, "chrome-linux", "chrome"))
+    : [];
+  const candidates = [
+    process.env.CHROME_PATH,
+    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    ...bundled,
+    "/usr/bin/google-chrome", "/usr/bin/chromium", "/usr/bin/chromium-browser",
+  ];
+  const found = candidates.find((path) => path && existsSync(path));
+  if (!found) throw new Error("Chrome не найден: укажи путь в CHROME_PATH");
+  return found;
+}
+const CHROME = findChrome();
+// В контейнере Chrome запускается от root и без --no-sandbox не стартует.
+const SANDBOX_FLAGS = process.getuid?.() === 0 ? ["--no-sandbox"] : [];
 const URL = process.env.LOOKSMAX_URL || "http://127.0.0.1:8765/";
 const [out, width = "1280", height = "900", ...steps] = process.argv.slice(2);
 if (!out) {
@@ -19,7 +38,7 @@ if (!out) {
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const port = 9300 + Math.floor(Math.random() * 500);
 const chrome = spawn(CHROME, [
-  "--headless=new", "--disable-gpu", "--hide-scrollbars", "--no-first-run",
+  "--headless=new", "--disable-gpu", "--hide-scrollbars", "--no-first-run", ...SANDBOX_FLAGS,
   `--remote-debugging-port=${port}`, `--user-data-dir=${mkdtempSync(join(tmpdir(), "lm-chrome-"))}`,
   `--window-size=${width},${height}`, "about:blank",
 ], { stdio: "ignore" });

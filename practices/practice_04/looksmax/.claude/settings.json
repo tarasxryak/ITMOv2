@@ -11,7 +11,10 @@
       "mcp__vkusvill__vkusvill_cart_link_create",
       "mcp__looksmax",
       "Skill(test-driven-development)",
-      "Skill(frontend-design)"
+      "Skill(frontend-design)",
+      "Bash(npm --prefix web run *)",
+      "Bash(npm --prefix web ci*)",
+      "mcp__shadcn"
     ],
     "deny": [
       "Bash(git commit *)",

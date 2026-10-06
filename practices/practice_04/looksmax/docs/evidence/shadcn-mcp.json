@@ -1,0 +1,192 @@
+{
+ "server": "shadcn-ui-mcp-server 3.0.0",
+ "tools": [
+  "get_component",
+  "get_component_demo",
+  "list_components",
+  "get_component_metadata",
+  "get_directory_structure",
+  "get_block",
+  "list_blocks",
+  "apply_theme",
+  "list_themes",
+  "get_theme"
+ ],
+ "calls": [
+  {
+   "tool": "get_component",
+   "args": {
+    "componentName": "button"
+   },
+   "isError": false,
+   "chars": 2382,
+   "imports": [
+    "@/lib/utils",
+    "class-variance-authority",
+    "radix-ui",
+    "react"
+   ]
+  },
+  {
+   "tool": "get_component",
+   "args": {
+    "componentName": "card"
+   },
+   "isError": false,
+   "chars": 1977,
+   "imports": [
+    "@/lib/utils",
+    "react"
+   ]
+  },
+  {
+   "tool": "get_component",
+   "args": {
+    "componentName": "badge"
+   },
+   "isError": false,
+   "chars": 1766,
+   "imports": [
+    "@/lib/utils",
+    "class-variance-authority",
+    "radix-ui",
+    "react"
+   ]
+  },
+  {
+   "tool": "get_component",
+   "args": {
+    "componentName": "progress"
+   },
+   "isError": false,
+   "chars": 725,
+   "imports": [
+    "@/lib/utils",
+    "radix-ui",
+    "react"
+   ]
+  },
+  {
+   "tool": "get_component",
+   "args": {
+    "componentName": "tabs"
+   },
+   "isError": false,
+   "chars": 3772,
+   "imports": [
+    "@/lib/utils",
+    "class-variance-authority",
+    "radix-ui",
+    "react"
+   ]
+  },
+  {
+   "tool": "get_component",
+   "args": {
+    "componentName": "tooltip"
+   },
+   "isError": false,
+   "chars": 1820,
+   "imports": [
+    "@/lib/utils",
+    "radix-ui",
+    "react"
+   ]
+  },
+  {
+   "tool": "get_component",
+   "args": {
+    "componentName": "dialog"
+   },
+   "isError": false,
+   "chars": 4304,
+   "imports": [
+    "@/components/ui/button",
+    "@/lib/utils",
+    "lucide-react",
+    "radix-ui",
+    "react"
+   ]
+  },
+  {
+   "tool": "get_component",
+   "args": {
+    "componentName": "separator"
+   },
+   "isError": false,
+   "chars": 684,
+   "imports": [
+    "@/lib/utils",
+    "radix-ui",
+    "react"
+   ]
+  },
+  {
+   "tool": "get_component",
+   "args": {
+    "componentName": "skeleton"
+   },
+   "isError": false,
+   "chars": 267,
+   "imports": [
+    "@/lib/utils"
+   ]
+  },
+  {
+   "tool": "get_component",
+   "args": {
+    "componentName": "sheet"
+   },
+   "isError": false,
+   "chars": 4178,
+   "imports": [
+    "@/lib/utils",
+    "lucide-react",
+    "radix-ui",
+    "react"
+   ]
+  },
+  {
+   "tool": "get_component",
+   "args": {
+    "componentName": "alert"
+   },
+   "isError": false,
+   "chars": 1604,
+   "imports": [
+    "@/lib/utils",
+    "class-variance-authority",
+    "react"
+   ]
+  },
+  {
+   "tool": "get_component",
+   "args": {
+    "componentName": "toggle"
+   },
+   "isError": false,
+   "chars": 1555,
+   "imports": [
+    "@/lib/utils",
+    "class-variance-authority",
+    "radix-ui",
+    "react"
+   ]
+  },
+  {
+   "tool": "get_component",
+   "args": {
+    "componentName": "toggle-group"
+   },
+   "isError": false,
+   "chars": 2309,
+   "imports": [
+    "@/components/ui/toggle",
+    "@/lib/utils",
+    "class-variance-authority",
+    "radix-ui",
+    "react"
+   ]
+  }
+ ]
+}

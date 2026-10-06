@@ -1,0 +1,202 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* «Холодильный ряд»: ледяная подложка, хвойный вместо чёрного, жёлтый ценник только для действия. */
+:root {
+  --radius: 0.875rem;
+  --background: #e9f0f1;
+  --foreground: #0d3b2e;
+  --card: #ffffff;
+  --card-foreground: #0d3b2e;
+  --popover: #ffffff;
+  --popover-foreground: #0d3b2e;
+  --primary: #ffd23f;
+  --primary-foreground: #0d3b2e;
+  --secondary: #d6e3e5;
+  --secondary-foreground: #0d3b2e;
+  --muted: #dce7e9;
+  --muted-foreground: #4d6d66;
+  --accent: #fff1b8;
+  --accent-foreground: #0d3b2e;
+  --destructive: #c93a30;
+  --border: #c3d3d6;
+  --input: #c3d3d6;
+  --ring: #0d3b2e;
+
+  --fresh: #138a4e;
+  --fresh-soft: #d6f1e3;
+  --fresh-ink: #0b6b3b;
+  --tomato: #c93a30;
+  --tomato-soft: #fbdfdb;
+  --tomato-ink: #a3281f;
+  --coin: #f2b705;
+  --spruce: #0d3b2e;
+  --tag: #ffd23f;
+}
+
+.dark {
+  --background: #0a1e19;
+  --foreground: #e6f2ee;
+  --card: #11302a;
+  --card-foreground: #e6f2ee;
+  --popover: #11302a;
+  --popover-foreground: #e6f2ee;
+  --primary: #ffd23f;
+  --primary-foreground: #0d3b2e;
+  --secondary: #1b403a;
+  --secondary-foreground: #e6f2ee;
+  --muted: #163832;
+  --muted-foreground: #92b6ab;
+  --accent: #3a4a1f;
+  --accent-foreground: #ffe58a;
+  --destructive: #e5574c;
+  --border: #265048;
+  --input: #265048;
+  --ring: #ffd23f;
+
+  --fresh: #2fbf74;
+  --fresh-soft: #123d2c;
+  --fresh-ink: #6fe3a5;
+  --tomato: #e5574c;
+  --tomato-soft: #4a1e1a;
+  --tomato-ink: #ff9a90;
+  --spruce: #0d3b2e;
+}
+
+@theme inline {
+  --font-sans: "Onest Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Unbounded Variable", "Onest Variable", ui-sans-serif, sans-serif;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-fresh: var(--fresh);
+  --color-fresh-soft: var(--fresh-soft);
+  --color-fresh-ink: var(--fresh-ink);
+  --color-tomato: var(--tomato);
+  --color-tomato-soft: var(--tomato-soft);
+  --color-tomato-ink: var(--tomato-ink);
+  --color-coin: var(--coin);
+  --color-spruce: var(--spruce);
+  --color-tag: var(--tag);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 6px);
+  --radius-tag: 1.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-background font-sans text-foreground antialiased;
+    min-height: 100dvh;
+  }
+  /* Видимый фокус с клавиатуры везде, не только у кнопок shadcn. */
+  :focus-visible {
+    outline: 3px solid var(--ring);
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  /* Ценник: белая карточка с пробитой дыркой и жёлтой полосой цены под перфорацией. */
+  .tag-card {
+    position: relative;
+    border-radius: var(--radius-tag);
+    background: var(--card);
+    border: 1.5px solid var(--border);
+    transition:
+      transform 0.18s ease,
+      border-color 0.18s ease,
+      box-shadow 0.18s ease;
+  }
+  .tag-card::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    width: 14px;
+    height: 14px;
+    margin-left: -7px;
+    border-radius: 999px;
+    background: var(--background);
+    border: 1.5px solid var(--border);
+    z-index: 2;
+  }
+  .tag-strip {
+    position: relative;
+    background: var(--tag);
+    color: var(--spruce);
+    border-radius: 0 0 calc(var(--radius-tag) - 2px) calc(var(--radius-tag) - 2px);
+  }
+  /* Перфорация: пунктир и две выемки по краям. */
+  .tag-strip::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: 14px;
+    right: 14px;
+    border-top: 2px dashed color-mix(in oklab, var(--spruce) 35%, var(--tag));
+  }
+  .tag-strip::after {
+    content: "";
+    position: absolute;
+    top: -9px;
+    left: 0;
+    right: 0;
+    height: 18px;
+    background:
+      radial-gradient(circle 9px at 0 50%, var(--background) 97%, transparent) left / 9px 18px no-repeat,
+      radial-gradient(circle 9px at 100% 50%, var(--background) 97%, transparent) right / 9px 18px no-repeat;
+    pointer-events: none;
+  }
+
+  /* Чек: зубчатый нижний край. */
+  .receipt {
+    --tooth: 9px;
+    background: var(--card);
+    border: 1.5px solid var(--border);
+    border-bottom: 0;
+    border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+    padding-bottom: calc(var(--tooth) + 6px);
+    mask:
+      conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom / calc(var(--tooth) * 2)
+        var(--tooth) repeat-x,
+      linear-gradient(#000 0 0) top / 100% calc(100% - var(--tooth)) no-repeat;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
