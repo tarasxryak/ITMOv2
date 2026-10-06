@@ -4,3 +4,6 @@ __pycache__/
 .claude/settings.local.json
 node_modules/
 web/dist/
+
+# В корневом .gitignore курса есть шаблонное «lib/» для Python: оно скрывало бы web/src/lib с игровой логикой.
+!web/src/lib/
