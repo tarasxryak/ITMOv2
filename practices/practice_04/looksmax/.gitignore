@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.claude/settings.local.json
+node_modules/
+web/dist/
+
+# В корневом .gitignore курса есть шаблонное «lib/» для Python: оно скрывало бы web/src/lib с игровой логикой.
+!web/src/lib/
+
+# Полные логи headless-сессий: вся история переписки с агентом, в репозиторий не кладём. Сводка в docs/evidence/summary.md.
+docs/evidence/raw/

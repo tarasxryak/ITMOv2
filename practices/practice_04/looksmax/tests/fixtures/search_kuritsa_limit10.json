@@ -1,0 +1,768 @@
+{
+    "ok": true,
+    "data": {
+        "meta": {
+            "q": "курица",
+            "limit": 10,
+            "total": 509,
+            "page": 1,
+            "pages": 51,
+            "has_more": true,
+            "personalized": false
+        },
+        "items": [
+            {
+                "id": 484,
+                "xml_id": 484,
+                "name": "Тушка цыпленка-бройлера, охлажденная",
+                "slug": "tushka-tsyplenka-broylera",
+                "description": "Из цыплёнка можно приготовить множество разнообразных блюд на несколько приёмов пищи. Удобно запекать его в духовке и подавать к столу целиком в сопровождении лёгких гарниров и закусок. Тушка уже выпотрошена и ощипана, поэтому вам не придётся тратить время на её подготовку. Структура мяса на 60% состоит из воды, поэтому в упаковке может быть до 4% жидкости — это естественно",
+                "price": {
+                    "current": 296,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "кг",
+                "weight": null,
+                "rating": {
+                    "average": 4.9000000000000004,
+                    "count": 25757
+                },
+                "url": "https://vkusvill.ru/goods/tushka-tsyplenka-broylera-484/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/6d30e178-637e-4b7e-afb0-27f5adb3acac.webp?1711821813.266",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/6d30e178-637e-4b7e-afb0-27f5adb3acac.webp?1711821809.833",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/6d30e178-637e-4b7e-afb0-27f5adb3acac.webp?1711821816.8591"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/577e0c61-6548-47ce-a291-fe4f29ab7465.webp?1737529539.9365",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/577e0c61-6548-47ce-a291-fe4f29ab7465.webp?1737529538.8808",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/577e0c61-6548-47ce-a291-fe4f29ab7465.webp?1737529540.9903"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/8dc15d27-c7b4-4f4e-bb5a-aca9c262a199.webp?1711821899.7901",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/8dc15d27-c7b4-4f4e-bb5a-aca9c262a199.webp?1711821897.9356",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/8dc15d27-c7b4-4f4e-bb5a-aca9c262a199.webp?1711821903.0687"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/939a09b2-d42f-415b-b443-d5f0acf278ed.webp?1735087230.5715",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/939a09b2-d42f-415b-b443-d5f0acf278ed.webp?1735087228.6675",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/939a09b2-d42f-415b-b443-d5f0acf278ed.webp?1735087232.4604"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/e0c19fd1-5973-4e4a-990c-5536a10a4223.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/e0c19fd1-5973-4e4a-990c-5536a10a4223.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/e0c19fd1-5973-4e4a-990c-5536a10a4223.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/436ab69f-687c-47b2-8035-0b454f70fe87.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/436ab69f-687c-47b2-8035-0b454f70fe87.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/436ab69f-687c-47b2-8035-0b454f70fe87.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50342,
+                        "name": "Курица",
+                        "slug": "kuritsa",
+                        "url": "https://vkusvill.ru/goods/myaso-ptitsa/kuritsa/"
+                    },
+                    {
+                        "id": 50328,
+                        "name": "Мясо, птица",
+                        "slug": "myaso-ptitsa",
+                        "url": "https://vkusvill.ru/goods/myaso-ptitsa/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "ООО \"МЕГА ЮРМА\": белки 16 г, жиры 14 г, ; 190 ккал<br>ОАО \"Смолевичи Бройлер\": белки 18.6 г, жиры 15.1 г, ; 210.3 ккал<br>ООО \"ПТИЦЕФАБРИКА В БЕЛОУСОВО\": белки 16 г, жиры 20 г, ; 244 ккал"
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ООО \"МЕГА ЮРМА\":тушка цыпленка-бройлера;<br>ОАО \"Смолевичи Бройлер\":Цыпленок-бройлер;<br>ООО \"ПТИЦЕФАБРИКА В БЕЛОУСОВО\":тушка цыпленка-бройлера;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 19419,
+                "xml_id": 19419,
+                "name": "Бедро цыпленка-бройлера бескостное (филе бедра)",
+                "slug": "bedro-tsyplenka-broylera-beskostnoe-file-bedra",
+                "description": "Сочные куриные бёдрышки можно запечь, добавить в суп, обжарить на сковороде или гриле. А благодаря отсутствию костей, приготовление любимых блюд будет особенно удобным. Птицы выращиваются без антибиотиков и гормонов, поэтому мясо такое вкусное и действительно полезное.",
+                "price": {
+                    "current": 694,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "кг",
+                "weight": null,
+                "rating": {
+                    "average": 4.9000000000000004,
+                    "count": 73933
+                },
+                "url": "https://vkusvill.ru/goods/bedro-tsyplenka-broylera-beskostnoe-file-bedra-19419/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/dbf4dc78-c1d3-4611-ae0a-85562d9f6c0b.webp?1781882479",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/dbf4dc78-c1d3-4611-ae0a-85562d9f6c0b.webp?1781882479",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/dbf4dc78-c1d3-4611-ae0a-85562d9f6c0b.webp?1781882482"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/74e498c2-b4de-4cd1-9740-df2d52f4b59b.webp?1781882441",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/74e498c2-b4de-4cd1-9740-df2d52f4b59b.webp?1781882439",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/74e498c2-b4de-4cd1-9740-df2d52f4b59b.webp?1781882440"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/ca7536b7-2648-4250-9eac-16b764691870.webp?1781882425",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/ca7536b7-2648-4250-9eac-16b764691870.webp?1781882424",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/ca7536b7-2648-4250-9eac-16b764691870.webp?1781882424"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/5132ad33-18d7-4b60-94eb-3a639e7404ad.webp?1782260550",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/5132ad33-18d7-4b60-94eb-3a639e7404ad.webp?1782260550",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/5132ad33-18d7-4b60-94eb-3a639e7404ad.webp?1782260551"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/1ce2aadb-d876-4b0e-b8d3-124ea94a76f3.webp?1781882433",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/1ce2aadb-d876-4b0e-b8d3-124ea94a76f3.webp?1781882433",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/1ce2aadb-d876-4b0e-b8d3-124ea94a76f3.webp?1781882436"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50342,
+                        "name": "Курица",
+                        "slug": "kuritsa",
+                        "url": "https://vkusvill.ru/goods/myaso-ptitsa/kuritsa/"
+                    },
+                    {
+                        "id": 50328,
+                        "name": "Мясо, птица",
+                        "slug": "myaso-ptitsa",
+                        "url": "https://vkusvill.ru/goods/myaso-ptitsa/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "АО \"ЯРОСЛАВСКИЙ БРОЙЛЕР\": белки 16 г, жиры 9 г, ; 145 ккал<br>ООО \"МЕГА ЮРМА\": белки 13.8 г, жиры 8.7 г, ; 133.5 ккал<br>ОАО \"Смолевичи Бройлер\": белки 17.4 г, жиры 9.3 г, ; 153.3 ккал<br>АО \"ПРОДО ПТИЦЕФАБРИКА КАЛУЖСКАЯ\": белки 19 г, жиры 6 г, ; 130 ккал<br>ООО \"ПТИЦЕФАБРИКА В БЕЛОУСОВО\": белки 17.7 г, жиры 9.9 г, ; 159.9 ккал"
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "АО \"ЯРОСЛАВСКИЙ БРОЙЛЕР\":мясо бедра цыпленка-бройлера бескостное;<br>ООО \"МЕГА ЮРМА\":мясо бедра цыплят-бройлеров бескостное;<br>ОАО \"Смолевичи Бройлер\":Бедро цыпленка-бройлера;<br>АО \"ПРОДО ПТИЦЕФАБРИКА КАЛУЖСКАЯ\":мясо бедра цыпленка-бройлера бескостное;<br>ООО \"ПТИЦЕФАБРИКА В БЕЛОУСОВО\":мясо бедра цыплят бройлеров бескостное без кожи;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 488,
+                "xml_id": 488,
+                "name": "Филе грудки цыпленка-бройлера",
+                "slug": "file-grudki-tsyplenka-broylera",
+                "description": "Филе грудки станет оптимальным выбором для приверженцев здорового питания. Мясо просто в приготовлении и не содержит лишнего жира, поэтому из него получаются отличные диетические блюда. Грудка подходит для салатов, супов, запекания, отбивных.",
+                "price": {
+                    "current": 656,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "кг",
+                "weight": null,
+                "rating": {
+                    "average": 4.9000000000000004,
+                    "count": 39380
+                },
+                "url": "https://vkusvill.ru/goods/file-grudki-tsyplenka-broylera-488/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/68d3a5d4-2038-436d-b8bb-35f8c961cbd5.webp?1714737958.8995",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/68d3a5d4-2038-436d-b8bb-35f8c961cbd5.webp?1714737957.0997",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/68d3a5d4-2038-436d-b8bb-35f8c961cbd5.webp?1714737960.6309"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/2ba7a7e7-9101-4b77-81a4-8021ec5c449c.webp?1701040904.7511",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/2ba7a7e7-9101-4b77-81a4-8021ec5c449c.webp?1701040902.9404",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/2ba7a7e7-9101-4b77-81a4-8021ec5c449c.webp?1701040906.5939"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/6f2f5ed3-72df-44a1-8c8d-22af658126aa.webp?1782242004",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/6f2f5ed3-72df-44a1-8c8d-22af658126aa.webp?1782242004",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/6f2f5ed3-72df-44a1-8c8d-22af658126aa.webp?1782242002"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/6aa02468-cd8f-4d42-bf60-bffdd181c646.webp?1781877499",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/6aa02468-cd8f-4d42-bf60-bffdd181c646.webp?1781877499",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/6aa02468-cd8f-4d42-bf60-bffdd181c646.webp?1781877499"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/19bb4ef7-f08e-41fd-9e6a-42965046c702.webp?1782241884",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/19bb4ef7-f08e-41fd-9e6a-42965046c702.webp?1782241884",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/19bb4ef7-f08e-41fd-9e6a-42965046c702.webp?1782241884"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/32de8b54-0d3e-4240-b49d-dfdb92928815.webp?1781877487",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/32de8b54-0d3e-4240-b49d-dfdb92928815.webp?1781877489",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/32de8b54-0d3e-4240-b49d-dfdb92928815.webp?1781877488"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/329ef0d6-dc6a-4231-a5cd-a728eaec982d.webp?1781877494",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/329ef0d6-dc6a-4231-a5cd-a728eaec982d.webp?1781877495",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/329ef0d6-dc6a-4231-a5cd-a728eaec982d.webp?1781877495"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50342,
+                        "name": "Курица",
+                        "slug": "kuritsa",
+                        "url": "https://vkusvill.ru/goods/myaso-ptitsa/kuritsa/"
+                    },
+                    {
+                        "id": 50328,
+                        "name": "Мясо, птица",
+                        "slug": "myaso-ptitsa",
+                        "url": "https://vkusvill.ru/goods/myaso-ptitsa/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "АО \"ЯРОСЛАВСКИЙ БРОЙЛЕР\": белки 20 г, жиры 4 г, ; 116 ккал<br>ООО \"МЕГА ЮРМА\": белки 22.8 г, жиры 3.3 г, ; 120.9 ккал<br>ОАО \"Смолевичи Бройлер\": белки 22.6 г, жиры 2.8 г, ; 115.6 ккал<br>АО \"ПРОДО ПТИЦЕФАБРИКА КАЛУЖСКАЯ\": белки 18.3 г, жиры 2.3 г, ; 93.9 ккал"
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "АО \"ЯРОСЛАВСКИЙ БРОЙЛЕР\":Филе грудки цыплят-бройлеров;<br>ООО \"МЕГА ЮРМА\":филе грудки цыплят-бройлеров;<br>ОАО \"Смолевичи Бройлер\":филе грудки цыпленка-бройлера;<br>АО \"ПРОДО ПТИЦЕФАБРИКА КАЛУЖСКАЯ\":филе грудки цыплят-бройлеров;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 489,
+                "xml_id": 489,
+                "name": "Голень цыпленка-бройлера",
+                "slug": "golen-tsyplenka-broylera",
+                "description": "Куриная голень прекрасно подходит для приготовления простых домашних блюд. Это одна из самых сочных частей тушки, поэтому подходит для любых кулинарных экспериментов. Из голени получается прекрасный шашлык, а ещё её можно просто обжарить или запечь в духовке.",
+                "price": {
+                    "current": 438,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "кг",
+                "weight": null,
+                "rating": {
+                    "average": 4.9000000000000004,
+                    "count": 72874
+                },
+                "url": "https://vkusvill.ru/goods/golen-tsyplenka-broylera-489/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/d6e3b63c-d10a-4ea0-9633-4c62fc2cd595.webp?1781457580",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/d6e3b63c-d10a-4ea0-9633-4c62fc2cd595.webp?1781457579",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/d6e3b63c-d10a-4ea0-9633-4c62fc2cd595.webp?1781457579"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/72f44a10-2adc-4ad0-83b8-b4b6a2866394.webp?1781457585",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/72f44a10-2adc-4ad0-83b8-b4b6a2866394.webp?1781457586",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/72f44a10-2adc-4ad0-83b8-b4b6a2866394.webp?1781457587"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/5e047670-7843-464f-ab14-4d9470d26990.webp?1781479844",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/5e047670-7843-464f-ab14-4d9470d26990.webp?1781479844",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/5e047670-7843-464f-ab14-4d9470d26990.webp?1781479847"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/1777d3fb-a6ae-4d4e-9fdd-7656edc4b9f3.webp?1781479838",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/1777d3fb-a6ae-4d4e-9fdd-7656edc4b9f3.webp?1781479837",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/1777d3fb-a6ae-4d4e-9fdd-7656edc4b9f3.webp?1781479841"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/0e074191-041c-45c4-81ac-98b751c42af1.webp?1782519610",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/0e074191-041c-45c4-81ac-98b751c42af1.webp?1782519609",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/0e074191-041c-45c4-81ac-98b751c42af1.webp?1782519610"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/0c57b6ab-e880-47ca-890b-7b4d2a947f67.webp?1781480271",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/0c57b6ab-e880-47ca-890b-7b4d2a947f67.webp?1781480273",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/0c57b6ab-e880-47ca-890b-7b4d2a947f67.webp?1781480273"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/b093472b-d3e5-4df0-a304-0f008f7e678e.webp?1781480276",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/b093472b-d3e5-4df0-a304-0f008f7e678e.webp?1781480279",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/b093472b-d3e5-4df0-a304-0f008f7e678e.webp?1781480279"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50342,
+                        "name": "Курица",
+                        "slug": "kuritsa",
+                        "url": "https://vkusvill.ru/goods/myaso-ptitsa/kuritsa/"
+                    },
+                    {
+                        "id": 50328,
+                        "name": "Мясо, птица",
+                        "slug": "myaso-ptitsa",
+                        "url": "https://vkusvill.ru/goods/myaso-ptitsa/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "АО \"ЯРОСЛАВСКИЙ БРОЙЛЕР\": белки 16 г, жиры 8 г, ; 136 ккал<br>ООО \"МЕГА ЮРМА\": белки 18 г, жиры 7 г, ; 135 ккал<br>ОАО \"Смолевичи Бройлер\": белки 19.34 г, жиры 2.5 г, ; 99.86 ккал<br>АО \"ПРОДО ПТИЦЕФАБРИКА КАЛУЖСКАЯ\": белки 18 г, жиры 7 г, ; 135 ккал<br>ООО \"ПТИЦЕФАБРИКА В БЕЛОУСОВО\": белки 18.2 г, жиры 6.3 г, ; 129.5 ккал"
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "АО \"ЯРОСЛАВСКИЙ БРОЙЛЕР\":Голень цыпленка-бройлера;<br>ООО \"МЕГА ЮРМА\":голень цыплят-бройлера;<br>ОАО \"Смолевичи Бройлер\":Голень цыпленка-бройлера;<br>АО \"ПРОДО ПТИЦЕФАБРИКА КАЛУЖСКАЯ\":голень цыпленка - бройлера;<br>ООО \"ПТИЦЕФАБРИКА В БЕЛОУСОВО\":голень цыплят-бройлеров;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 18580,
+                "xml_id": 18580,
+                "name": "Бедро цыпленка бройлера",
+                "slug": "bedro-tsyplenka-broylera",
+                "description": "Куриное бедро прекрасно подходит для приготовления простых домашних блюд. Из такого мяса можно сварить наваристый суп, сделать сочное жаркое или шашлык.",
+                "price": {
+                    "current": 434,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "кг",
+                "weight": null,
+                "rating": {
+                    "average": 4.7999999999999998,
+                    "count": 46869
+                },
+                "url": "https://vkusvill.ru/goods/bedro-tsyplenka-broylera-18580/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/5ef42dbd-f995-4587-b178-4d21b898d80a.webp?1781457114",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/5ef42dbd-f995-4587-b178-4d21b898d80a.webp?1781457114",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/5ef42dbd-f995-4587-b178-4d21b898d80a.webp?1781457113"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/871b33ac-5e98-45db-b9cb-904fdf77cb30.webp?1782736541",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/871b33ac-5e98-45db-b9cb-904fdf77cb30.webp?1782736540",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/871b33ac-5e98-45db-b9cb-904fdf77cb30.webp?1782736541"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/d5172718-406d-4531-a839-e8dde8d084a5.webp?1781457109",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/d5172718-406d-4531-a839-e8dde8d084a5.webp?1781457110",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/d5172718-406d-4531-a839-e8dde8d084a5.webp?1781457108"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/8f10d475-3196-4915-bde9-3b8f0905d727.webp?1785283842",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/8f10d475-3196-4915-bde9-3b8f0905d727.webp?1785283842",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/8f10d475-3196-4915-bde9-3b8f0905d727.webp?1785283843"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/6992a535-07a5-4bac-87e6-6a198e28b93d.webp?1785874609",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/6992a535-07a5-4bac-87e6-6a198e28b93d.webp?1785874612",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/6992a535-07a5-4bac-87e6-6a198e28b93d.webp?1785874609"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50342,
+                        "name": "Курица",
+                        "slug": "kuritsa",
+                        "url": "https://vkusvill.ru/goods/myaso-ptitsa/kuritsa/"
+                    },
+                    {
+                        "id": 50328,
+                        "name": "Мясо, птица",
+                        "slug": "myaso-ptitsa",
+                        "url": "https://vkusvill.ru/goods/myaso-ptitsa/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "ООО \"БОГОРОДСКИЕ ДЕЛИКАТЕСЫ\": белки 17 г, жиры 10 г, ; 158 ккал<br>ООО \"МЕГА ЮРМА\": белки 18 г, жиры 8 г, ; 144 ккал<br>ОАО \"Смолевичи Бройлер\": белки 19.7 г, жиры 15.6 г, ; 219.2 ккал<br>АО \"ПРОДО ПТИЦЕФАБРИКА КАЛУЖСКАЯ\": белки 18 г, жиры 8 г, ; 144 ккал<br>ООО \"ПТИЦЕФАБРИКА В БЕЛОУСОВО\": белки 17.4 г, жиры 9 г, ; 150.6 ккал<br>АО \"АКТИОН-АГРО\": белки 17 г, жиры 16 г, ; 212 ккал"
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ООО \"БОГОРОДСКИЕ ДЕЛИКАТЕСЫ\":Бедро цыпленка-бройлера на кости ;<br>ООО \"МЕГА ЮРМА\":бедро цыпленка-бройлера;<br>ОАО \"Смолевичи Бройлер\":бедро цыпленка-бройлера;<br>АО \"ПРОДО ПТИЦЕФАБРИКА КАЛУЖСКАЯ\":Бедро цыпленка бройлера;<br>ООО \"ПТИЦЕФАБРИКА В БЕЛОУСОВО\":бедро цыпленка-бройлера;<br>АО \"АКТИОН-АГРО\":Бедро цыпленка-бройлера;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 23995,
+                "xml_id": 23995,
+                "name": "Стейк из филе грудки цыпленка-бройлера",
+                "slug": "steyk-iz-file-grudki-tsyplenka-broylera",
+                "description": "Свежее, с атласной текстурой и нежными волокнами филе грудки бройлерного цыпленка. Идеальное мясо для диетического меню и приготовления лёгких, но очень питательных блюд. Его можно отварить с пряными травами и сделать салат с киноа, брынзой, грушей и орешками. Или традиционно потушить в сливках, с молодым картофелем и грибами. Филе цыплёнка отлично подходит и для гурманских оригинальных блюд, и для простых рецептов на скорую руку. Средняя толщина стейка - 5 мм.",
+                "price": {
+                    "current": 339,
+                    "currency": "RUB",
+                    "old": 373,
+                    "discount_percent": 9,
+                    "discount_info": "Скидка по карте лояльности по 11.10"
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 4.7999999999999998,
+                    "count": 38421
+                },
+                "url": "https://vkusvill.ru/goods/steyk-iz-file-grudki-tsyplenka-broylera-23995/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/0d3630a9-7480-42ac-a769-71d91200d3bb.webp?1732750527.3457",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/0d3630a9-7480-42ac-a769-71d91200d3bb.webp?1732750525.4776",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/0d3630a9-7480-42ac-a769-71d91200d3bb.webp?1732750529.1375"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/e3ce2093-ef25-4a1c-87d0-790150518465.webp?1786965287",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/e3ce2093-ef25-4a1c-87d0-790150518465.webp?1786965288",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/e3ce2093-ef25-4a1c-87d0-790150518465.webp?1786965287"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/cbb9b964-06d5-4342-a937-654bd9cd5785.webp?1786134896",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/cbb9b964-06d5-4342-a937-654bd9cd5785.webp?1786134896",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/cbb9b964-06d5-4342-a937-654bd9cd5785.webp?1786134901"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/452be7b6-a564-4355-8788-cc468953ed73.webp?1721043849.5972",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/452be7b6-a564-4355-8788-cc468953ed73.webp?1721043848.1129",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/452be7b6-a564-4355-8788-cc468953ed73.webp?1721043851.1657"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50342,
+                        "name": "Курица",
+                        "slug": "kuritsa",
+                        "url": "https://vkusvill.ru/goods/myaso-ptitsa/kuritsa/"
+                    },
+                    {
+                        "id": 50328,
+                        "name": "Мясо, птица",
+                        "slug": "myaso-ptitsa",
+                        "url": "https://vkusvill.ru/goods/myaso-ptitsa/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "белки 20 г, жиры 4 г, ; 116 ккал"
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "АО \"ЯРОСЛАВСКИЙ БРОЙЛЕР\":филе грудки цыпленка-бройлера;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 64567,
+                "xml_id": 64567,
+                "name": "Полутушка цыпленка-бройлера на зерновом откорме",
+                "slug": "polutushka-tsyplenka-broylera-na-zernovom-otkorme",
+                "description": "Мясо цыплят на зерновом откорме обладает особенным вкусом со сливочно-масляными оттенками и лёгкой сладостью. Оно отлично подойдёт для бульона — наваристого, золотистого и очень ароматного. Полутушка в этом случае идеальна: её не придётся разделывать, что ускорит и упростит процесс приготовления.",
+                "price": {
+                    "current": 556,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "кг",
+                "weight": null,
+                "rating": {
+                    "average": 4.9000000000000004,
+                    "count": 33955
+                },
+                "url": "https://vkusvill.ru/goods/polutushka-tsyplenka-broylera-na-zernovom-otkorme-64567/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/04bf463a-e134-40ff-96f7-f1fc18f340a2.webp?1747809766.2362",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/04bf463a-e134-40ff-96f7-f1fc18f340a2.webp?1747809764.0426",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/04bf463a-e134-40ff-96f7-f1fc18f340a2.webp?1747809768.3364"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/50dc0f53-f5c0-48a9-a93f-0278f231ae3b.webp?1788955851",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/50dc0f53-f5c0-48a9-a93f-0278f231ae3b.webp?1788955851",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/50dc0f53-f5c0-48a9-a93f-0278f231ae3b.webp?1788955853"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/40e434df-2aaa-4cd5-ab9b-cf6473146faa.webp?1747809716.2824",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/40e434df-2aaa-4cd5-ab9b-cf6473146faa.webp?1747809713.9065",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/40e434df-2aaa-4cd5-ab9b-cf6473146faa.webp?1747809718.8311"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/d8f0f26a-48a4-4ab6-ad94-4171857ed999.webp?1747807462.8167",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/d8f0f26a-48a4-4ab6-ad94-4171857ed999.webp?1747807460.3561",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/d8f0f26a-48a4-4ab6-ad94-4171857ed999.webp?1747807465.2642"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50342,
+                        "name": "Курица",
+                        "slug": "kuritsa",
+                        "url": "https://vkusvill.ru/goods/myaso-ptitsa/kuritsa/"
+                    },
+                    {
+                        "id": 50328,
+                        "name": "Мясо, птица",
+                        "slug": "myaso-ptitsa",
+                        "url": "https://vkusvill.ru/goods/myaso-ptitsa/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "ООО \"ИНТЕРСОЮЗ\": белки 16 г, жиры 12 г, ; 172 ккал<br>ООО \"КОЛЕКЦИОНЕ\": белки 19 г, жиры 6 г, ; 130 ккал<br>ООО \"РеалСП\": белки 18 г, жиры 13 г, ; 189 ккал<br>ИП Сергина Светлана Глава КФХ: белки 16.6 г, жиры 14.4 г, углеводы 0 г; 196 ккал"
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ООО \"ИНТЕРСОЮЗ\":Полутушка цыпленка-бройлера потрошеная 1 сорта;<br>ООО \"КОЛЕКЦИОНЕ\":Полутушка цыпленка-бройлера;<br>ООО \"РеалСП\":Полутушка цыпленка-бройлера на зерновом откорме;<br>ИП Сергина Светлана Глава КФХ:мясо птицы натуральное - полутушка цыпленка бройлера;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 15039,
+                "xml_id": 15039,
+                "name": "Тушка цыпленка-бройлера на зерновом откорме, охлажденная",
+                "slug": "tushka-tsyplenka-broylera-na-zernovom-otkorme",
+                "description": "Очищенная тушка крупного цыплёнка-бройлера, откормленного зерном и кукурузой. Мясо такого цыплёнка отличается более сбалансированным вкусом благодаря бесклеточному содержанию и особенному рациону.",
+                "price": {
+                    "current": 538,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "кг",
+                "weight": null,
+                "rating": {
+                    "average": 4.9000000000000004,
+                    "count": 14377
+                },
+                "url": "https://vkusvill.ru/goods/tushka-tsyplenka-broylera-na-zernovom-otkorme-15039/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/64da47f2-e845-4248-ba9e-6ccd618c00e7.webp?1725310864.3761",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/64da47f2-e845-4248-ba9e-6ccd618c00e7.webp?1725310862.0172",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/64da47f2-e845-4248-ba9e-6ccd618c00e7.webp?1725310866.2528"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/349cb78e-4042-47e7-86d6-560bdf87e97b.webp?1788952444",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/349cb78e-4042-47e7-86d6-560bdf87e97b.webp?1788952445",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/349cb78e-4042-47e7-86d6-560bdf87e97b.webp?1788952444"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/aba0b408-e015-4f22-9ade-dc38d49c52b3.webp?1703541346.1959",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/aba0b408-e015-4f22-9ade-dc38d49c52b3.webp?1703541344.4556",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/aba0b408-e015-4f22-9ade-dc38d49c52b3.webp?1703541347.9673"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/4dc687ea-baaa-4e5a-bbeb-22c890a767b8.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/4dc687ea-baaa-4e5a-bbeb-22c890a767b8.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/4dc687ea-baaa-4e5a-bbeb-22c890a767b8.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/6fd6a716-ddc4-413e-b7de-08619a23e6e0.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/6fd6a716-ddc4-413e-b7de-08619a23e6e0.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/6fd6a716-ddc4-413e-b7de-08619a23e6e0.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/5583085e-517a-4961-aa57-81d42b12be87.webp?1725310827.7073",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/5583085e-517a-4961-aa57-81d42b12be87.webp?1725310825.7005",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/5583085e-517a-4961-aa57-81d42b12be87.webp?1725310829.4817"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50342,
+                        "name": "Курица",
+                        "slug": "kuritsa",
+                        "url": "https://vkusvill.ru/goods/myaso-ptitsa/kuritsa/"
+                    },
+                    {
+                        "id": 50328,
+                        "name": "Мясо, птица",
+                        "slug": "myaso-ptitsa",
+                        "url": "https://vkusvill.ru/goods/myaso-ptitsa/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "ИП глава КФХ Лычкин Алексей Викторович: белки 16 г, жиры 14 г, углеводы 0 г; 190 ккал<br>ООО \"ИНТЕРСОЮЗ\": белки 16 г, жиры 14 г, ; 190 ккал<br>ООО \"РеалСП\": белки 16 г, жиры 14 г, ; 190 ккал<br>ООО \"МИТВИЛЛЬ\": белки 18 г, жиры 7 г, ; 135 ккал<br>ИП Сергина Светлана Глава КФХ: белки 16 г, жиры 14 г, углеводы 0 г; 190 ккал"
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ИП глава КФХ Лычкин Алексей Викторович:Тушка цыпленка-бройлера;<br>ООО \"ИНТЕРСОЮЗ\":Тушка цыпленка-бройлера потрошеная 1 сорта;<br>ООО \"РеалСП\":Тушка цыпленка-бройлера потрошенная;<br>ООО \"МИТВИЛЛЬ\":Тушка цыпленка-бройлера;<br>ИП Сергина Светлана Глава КФХ:тушка цыпленка бройлера;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 34100,
+                "xml_id": 34100,
+                "name": "Грудка цыплят-бройлеров",
+                "slug": "grudka-tsyplyat-broylerov",
+                "description": "Куриная грудка на кости. Нежное, диетическое мясо грудки бройлерных цыплят это простор для кулинарной фантазии. Его легко и просто превратить в аппетитные кармашки с начинкой из грибов, сыра или орехов с черносливом, в кремовый супчик на сливках, в легкое овощное азу или запеченые рулетики, в салат с грушей и камамбером или ароматное чахохбили. Количество продукта в упаковке может достигать 2 штук.",
+                "price": {
+                    "current": 565,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "кг",
+                "weight": null,
+                "rating": {
+                    "average": 4.9000000000000004,
+                    "count": 27437
+                },
+                "url": "https://vkusvill.ru/goods/grudka-tsyplyat-broylerov-34100/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/0c5d791f-112c-4a31-8b27-a52d1a83984f.webp?1781876764",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/0c5d791f-112c-4a31-8b27-a52d1a83984f.webp?1781876762",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/0c5d791f-112c-4a31-8b27-a52d1a83984f.webp?1781876761"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/85cd4c04-0305-4147-ba73-1a36332da7fb.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/85cd4c04-0305-4147-ba73-1a36332da7fb.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/85cd4c04-0305-4147-ba73-1a36332da7fb.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/d0cf57ba-1ef6-4a5b-8057-2c3830acb65c.webp?1781830308",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/d0cf57ba-1ef6-4a5b-8057-2c3830acb65c.webp?1781830306",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/d0cf57ba-1ef6-4a5b-8057-2c3830acb65c.webp?1781830307"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/2350bd55-f32a-4543-b488-65d469652bf4.webp?1785539850",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/2350bd55-f32a-4543-b488-65d469652bf4.webp?1785539847",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/2350bd55-f32a-4543-b488-65d469652bf4.webp?1785539848"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50342,
+                        "name": "Курица",
+                        "slug": "kuritsa",
+                        "url": "https://vkusvill.ru/goods/myaso-ptitsa/kuritsa/"
+                    },
+                    {
+                        "id": 50328,
+                        "name": "Мясо, птица",
+                        "slug": "myaso-ptitsa",
+                        "url": "https://vkusvill.ru/goods/myaso-ptitsa/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "ООО \"МЕГА ЮРМА\": белки 21 г, жиры 5 г, ; 129 ккал<br>ООО \"ПТИЦЕФАБРИКА В БЕЛОУСОВО\": белки 20.8 г, жиры 4.4 г, ; 122.8 ккал<br>АО \"АКТИОН-АГРО\": белки 19 г, жиры 10 г, ; 166 ккал"
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ООО \"МЕГА ЮРМА\":Грудка ЦБ;<br>ООО \"ПТИЦЕФАБРИКА В БЕЛОУСОВО\":грудка цыпленка-бройлера с кожей (на кости);<br>АО \"АКТИОН-АГРО\":Грудка цыпленка-бройлера на кости с кожей;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 24950,
+                "xml_id": 24950,
+                "name": "Филе грудки цыпленка-бройлера Халяль",
+                "slug": "file-grudki-tsyplenka-broylera-khalyal",
+                "description": "Куриная грудка без кожи станет оптимальным выбором для приверженцев здорового питания. Мясо просто в приготовлении и не содержит лишнего жира. Подходит для салатов, супов, запекания и приготовления других диетических блюд. Продукт сертифицирован по стандарту Халяль.",
+                "price": {
+                    "current": 738,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "кг",
+                "weight": null,
+                "rating": {
+                    "average": 4.9000000000000004,
+                    "count": 7479
+                },
+                "url": "https://vkusvill.ru/goods/file-grudki-tsyplenka-broylera-khalyal-24950/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/a5b090bc-ceca-4d1c-a1d8-2e75edb22a62.webp?1781382704",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/a5b090bc-ceca-4d1c-a1d8-2e75edb22a62.webp?1781382705",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/a5b090bc-ceca-4d1c-a1d8-2e75edb22a62.webp?1781382704"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/eadee136-e6cf-43c6-93a6-dcd5bc54d188.webp?1781382701",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/eadee136-e6cf-43c6-93a6-dcd5bc54d188.webp?1781382701",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/eadee136-e6cf-43c6-93a6-dcd5bc54d188.webp?1781382701"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/f5cf7654-7fbd-4459-b6f4-129a7df5be4e.webp?1784580905",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/f5cf7654-7fbd-4459-b6f4-129a7df5be4e.webp?1784580906",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/f5cf7654-7fbd-4459-b6f4-129a7df5be4e.webp?1784580906"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/19def197-2173-44f0-a3ee-380a02bc4020.webp?1784580909",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/19def197-2173-44f0-a3ee-380a02bc4020.webp?1784580910",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/19def197-2173-44f0-a3ee-380a02bc4020.webp?1784580911"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/5cf38e5d-5553-4eea-a9f1-72ace9f80c46.webp?1784580351",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/5cf38e5d-5553-4eea-a9f1-72ace9f80c46.webp?1784580352",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/5cf38e5d-5553-4eea-a9f1-72ace9f80c46.webp?1784580353"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/28751592-eb2d-46aa-8e61-dcf4d69eb546.webp?1784580902",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/28751592-eb2d-46aa-8e61-dcf4d69eb546.webp?1784580902",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/28751592-eb2d-46aa-8e61-dcf4d69eb546.webp?1784580902"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50342,
+                        "name": "Курица",
+                        "slug": "kuritsa",
+                        "url": "https://vkusvill.ru/goods/myaso-ptitsa/kuritsa/"
+                    },
+                    {
+                        "id": 50328,
+                        "name": "Мясо, птица",
+                        "slug": "myaso-ptitsa",
+                        "url": "https://vkusvill.ru/goods/myaso-ptitsa/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "ООО \"МЕГА ЮРМА\": белки 23.1 г, жиры 1.2 г, ; 103.2 ккал<br>ОАО \"Смолевичи Бройлер\": белки 22.6 г, жиры 2.8 г, ; 115.6 ккал"
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ООО \"МЕГА ЮРМА\":Филе грудки цыпленка-бройлера;<br>ОАО \"Смолевичи Бройлер\":филе грудки цыпленка-бройлера ;<br>"
+                    }
+                ]
+            }
+        ],
+        "facets": {
+            "categories": [
+                {
+                    "category_id": 32,
+                    "category_name": "Мясо, Мясные деликатесы",
+                    "subcategory_name": ""
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,745 @@
+{
+    "ok": true,
+    "data": {
+        "meta": {
+            "q": "творог",
+            "limit": 10,
+            "total": 127,
+            "page": 1,
+            "pages": 13,
+            "has_more": true,
+            "personalized": false
+        },
+        "items": [
+            {
+                "id": 27695,
+                "xml_id": 27695,
+                "name": "Творог 5%, 180&nbsp;г",
+                "slug": "tvorog-5",
+                "description": "Свежий творог в порционной упаковке с нежным молочным ароматом и мягким вкусом. Имеет зернистую текстуру, характерную для этого вида продукта. Сочетается с ягодами, орехами и топпингами, подходит для приготовления сырников, десертов и выпечки. Удобный формат для завтраков и перекусов.",
+                "price": {
+                    "current": 108,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 4.9,
+                    "count": 53583
+                },
+                "url": "https://vkusvill.ru/goods/tvorog-5-27695/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/daa8cbe3-0f81-4ccc-9a28-ee002327aa89.webp?1790122093",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/daa8cbe3-0f81-4ccc-9a28-ee002327aa89.webp?1790122094",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/daa8cbe3-0f81-4ccc-9a28-ee002327aa89.webp?1790122092"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/b8a280f9-0053-489e-85db-68cf5581c27f.webp?1729611400.1112",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/b8a280f9-0053-489e-85db-68cf5581c27f.webp?1729611398.2542",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/b8a280f9-0053-489e-85db-68cf5581c27f.webp?1729611401.8603"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/e523e942-319a-4733-8d8c-65fe4c596732.webp?1790122499",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/e523e942-319a-4733-8d8c-65fe4c596732.webp?1790122499",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/e523e942-319a-4733-8d8c-65fe4c596732.webp?1790122497"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/92161c1e-b341-443e-a0d7-592cea73a0ac.webp?1790122491",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/92161c1e-b341-443e-a0d7-592cea73a0ac.webp?1790122494",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/92161c1e-b341-443e-a0d7-592cea73a0ac.webp?1790122494"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/bba01f35-88fb-42b7-b4a9-dba40270fcdb.webp?1708046989.0863",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/bba01f35-88fb-42b7-b4a9-dba40270fcdb.webp?1708046988.2823",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/bba01f35-88fb-42b7-b4a9-dba40270fcdb.webp?1708046989.9687"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50393,
+                        "name": "Творог",
+                        "slug": "tvorog",
+                        "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/tvorog/"
+                    },
+                    {
+                        "id": 50388,
+                        "name": "Молочные продукты, яйцо",
+                        "slug": "molochnye-produkty-yaytso",
+                        "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "ООО \"ЛЕБЕДЯНЬМОЛОКО\": белки 16 г, жиры 5 г, углеводы 3 г; 121 ккал<br>ООО \"КУРСКОЕ МОЛОКО\": белки 16 г, жиры 5 г, углеводы 1.8 г; 116.2 ккал<br>АО \"ТМК\": белки 16 г, жиры 5 г, углеводы 3 г; 121 ккал<br>ЗАО ЗСМ \"МОЖАЙСКИЙ\": белки 16 г, жиры 5 г, углеводы 3 г; 121 ккал<br>ООО \"МИЛКЭКСПРЕСС\": белки 16 г, жиры 5 г, углеводы 3 г; 121 ккал<br>ООО \"ЛЮБИМЫЙ ГОРОД\": белки 16 г, жиры 5 г, углеводы 3 г; 121 ккал<br>ООО ФИРМА \"КАЛОРИЯ\": белки 16 г, жиры 5 г, углеводы 3 г; 121 ккал<br>ООО \"МОЛОЧНАЯ ФЕРМА\": белки 16 г, жиры 5 г, углеводы 3 г; 121 ккал"
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ООО \"ЛЕБЕДЯНЬМОЛОКО\":молоко обезжиренное, молоко цельное, заквасочные молочнокислые культуры;<br>ООО \"КУРСКОЕ МОЛОКО\":молоко нормализованное пастеризованное, закваска.;<br>АО \"ТМК\":нормализованное молоко (молоко цельное, молоко обезжиренное), закваска;<br>ЗАО ЗСМ \"МОЖАЙСКИЙ\":молоко нормализованное, закваска  молочнокислых микроорганизмов, молокосвертывающий ферментный препарат животного происхождения - пепсин пищевой говяжий.;<br>ООО \"МИЛКЭКСПРЕСС\":Молоко нормализованное, закваска.;<br>ООО \"ЛЮБИМЫЙ ГОРОД\":молоко нормализованное пастеризованное, закваска молочнокислых микроорганизмов;<br>ООО ФИРМА \"КАЛОРИЯ\":молоко цельное, молоко обезжиренное, заквасочные микроорганизмы.;<br>ООО \"МОЛОЧНАЯ ФЕРМА\":молоко обезжиренное, молоко цельное, закваска на чистых культурах молочнокислых микроорганизмов.;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 185,
+                "xml_id": 185,
+                "name": "Творог 5%, 400&nbsp;г",
+                "slug": "tvorog-5",
+                "description": "Свежий 5% творог, изготовленный без единой капли растительного жира. Идеален для приготовления вкусных и полезных завтраков, а также творожных десертов: сырников, запеканок, муссов. Чтобы продукт стал ещё вкуснее, в него можно добавлять различные джемы, конфитюры, фрукты и орехи. Если в вашем рационе ещё нет творога, самое время это исправить! Ведь он является не только природным источником белка, но и помогает восполнить дефицит кальция в организме.",
+                "price": {
+                    "current": 198,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 4.9,
+                    "count": 61371
+                },
+                "url": "https://vkusvill.ru/goods/tvorog-5-185/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/d72f5eb8-dc1e-445b-a4a6-a6021868caa5.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/d72f5eb8-dc1e-445b-a4a6-a6021868caa5.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/d72f5eb8-dc1e-445b-a4a6-a6021868caa5.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/186f701b-050b-4d45-a01a-dd8c723bcf20.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/186f701b-050b-4d45-a01a-dd8c723bcf20.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/186f701b-050b-4d45-a01a-dd8c723bcf20.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/3a621e64-b3a5-4ed4-b4c9-32f8af914c42.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/3a621e64-b3a5-4ed4-b4c9-32f8af914c42.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/3a621e64-b3a5-4ed4-b4c9-32f8af914c42.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/30fd30c3-43c4-428d-aa8e-039c93f7fd8c.webp?1708047143.8043",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/30fd30c3-43c4-428d-aa8e-039c93f7fd8c.webp?1708047141.4411",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/30fd30c3-43c4-428d-aa8e-039c93f7fd8c.webp?1708047146.4982"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/a43af20d-22d5-41ee-b4d2-82274724b0be.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/a43af20d-22d5-41ee-b4d2-82274724b0be.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/a43af20d-22d5-41ee-b4d2-82274724b0be.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50393,
+                        "name": "Творог",
+                        "slug": "tvorog",
+                        "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/tvorog/"
+                    },
+                    {
+                        "id": 50388,
+                        "name": "Молочные продукты, яйцо",
+                        "slug": "molochnye-produkty-yaytso",
+                        "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "белки 16 г, жиры 5 г, углеводы 3 г; 121 ккал Поставщики:ООО \"Н-ГРУПП\";ООО \"НИКОН\";ЗАО ЗСМ \"МОЖАЙСКИЙ\";ООО \"КОСМОЛ\";ООО \"МИЛКЭКСПРЕСС\";ООО  \"МОЛОЧНЫЙ ЗАВОД \"ПРИВОЛЖСКИЙ\""
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ООО \"Н-ГРУПП\":молоко нормализованное, закваска, молокосвертывающий фермент животного происхождения;<br>ООО \"НИКОН\":молоко нормализованное пастеризованное, закваска молочнокислых микроорганизмов.;<br>ЗАО ЗСМ \"МОЖАЙСКИЙ\":молоко нормализованное, закваска молочнокислых микроорганизмов, молокосвертывающий ферментный препарат животного происхождения.;<br>ООО \"КОСМОЛ\":молоко нормализованное (молоко обезжиренное, молоко цельное), закваска молочнокислых микроорганизмов.;<br>ООО \"МИЛКЭКСПРЕСС\": молоко обезжиренное, молоко цельное, закваска.;<br>ООО  \"МОЛОЧНЫЙ ЗАВОД \"ПРИВОЛЖСКИЙ\":молоко цельное, молоко обезжиренное, закваска.;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 21347,
+                "xml_id": 21347,
+                "name": "Творог \"Зернышко\" 5%, 300&nbsp;г",
+                "slug": "tvorog-zernyshko-5",
+                "description": "Творог Зёрнышко — один из многих продуктов, который появился на наших полках благодаря просьбам покупателей. Производство такого творога требует особенно бережного обращения с сырьём. Чтобы добиться нужной консистенции, творожную массу осторожно перемешивают на протяжении всего процесса варки, а затем охлаждают в специальной камере, не «‎разбивая» зерно на более мелкие кусочки. Творог станет быстрым и полезным завтраком, а также подойдёт для приготовления различных диетических и десертных блюд: запеканок, сырников, ПП-чизкейков.    ",
+                "price": {
+                    "current": 167,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 4.9,
+                    "count": 45364
+                },
+                "url": "https://vkusvill.ru/goods/tvorog-zernyshko-5-21347/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/bb027dd2-14bc-4c9f-b9ae-3f853af4d485.webp?1731983232.6215",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/bb027dd2-14bc-4c9f-b9ae-3f853af4d485.webp?1731983230.9107",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/bb027dd2-14bc-4c9f-b9ae-3f853af4d485.webp?1731983234.2792"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/6d8e2e39-3ccf-41ad-9964-d9ae80d928b7.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/6d8e2e39-3ccf-41ad-9964-d9ae80d928b7.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/6d8e2e39-3ccf-41ad-9964-d9ae80d928b7.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/21b223b9-6d9a-4cfb-9403-7307d1f43f0d.webp?1708050780.3648",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/21b223b9-6d9a-4cfb-9403-7307d1f43f0d.webp?1708050778.5916",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/21b223b9-6d9a-4cfb-9403-7307d1f43f0d.webp?1708050783.1277"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50393,
+                        "name": "Творог",
+                        "slug": "tvorog",
+                        "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/tvorog/"
+                    },
+                    {
+                        "id": 50388,
+                        "name": "Молочные продукты, яйцо",
+                        "slug": "molochnye-produkty-yaytso",
+                        "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "ООО \"ЛЕБЕДЯНЬМОЛОКО\": белки 16 г, жиры 5 г, углеводы 3 г; 121 ккал<br>ООО \"КУРСКОЕ МОЛОКО\": белки 16 г, жиры 5 г, углеводы 1.8 г; 116.2 ккал<br>ООО \"МИЛКЭКСПРЕСС\": белки 14 г, жиры 5 г, углеводы 3 г; 113 ккал<br>ООО \"ЛЮБИМЫЙ ГОРОД\": белки 15 г, жиры 5 г, углеводы 3 г; 117 ккал"
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ООО \"ЛЕБЕДЯНЬМОЛОКО\":молоко обезжиренное, молоко цельное, заквасочные молочнокислые культуры.;<br>ООО \"КУРСКОЕ МОЛОКО\":нормализованное пастеризованное молоко, закваска.;<br>ООО \"МИЛКЭКСПРЕСС\":Молоко обезжиренное, молоко цельное, закваска;<br>ООО \"ЛЮБИМЫЙ ГОРОД\":молоко нормализованное пастеризованное, закваска молочнокислых микроорганизмов.;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 24165,
+                "xml_id": 24165,
+                "name": "Творог 9%, 180&nbsp;г",
+                "slug": "tvorog-9",
+                "description": "Рассыпчатый творог, изготовленный на основе молока и закваски. Без заменителей молочного жира. Удобный формат упаковки для сытного и полезного завтрака или перекуса. А если в него добавить джем или ягоды и фрукты, получится нежный творожный десерт. .",
+                "price": {
+                    "current": 120,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 4.9,
+                    "count": 28632
+                },
+                "url": "https://vkusvill.ru/goods/tvorog-9-24165/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/9963f259-8aec-48e2-8956-8e2c56b2e473.webp?1740774749.189",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/9963f259-8aec-48e2-8956-8e2c56b2e473.webp?1740774747.132",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/9963f259-8aec-48e2-8956-8e2c56b2e473.webp?1740774751.0884"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/a33756da-b8b1-4cda-bfb7-41657ee395ef.webp?1729611436.4601",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/a33756da-b8b1-4cda-bfb7-41657ee395ef.webp?1729611434.3687",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/a33756da-b8b1-4cda-bfb7-41657ee395ef.webp?1729611438.356"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/f50d288d-91ac-4410-a3dd-ff4ccc27f82d.webp?1715895207.5805",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/f50d288d-91ac-4410-a3dd-ff4ccc27f82d.webp?1715895205.5094",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/f50d288d-91ac-4410-a3dd-ff4ccc27f82d.webp?1715895209.6824"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/fc3d0373-02c6-41ac-9344-8bc55b1ca3c8.webp?1706304173.7777",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/fc3d0373-02c6-41ac-9344-8bc55b1ca3c8.webp?1706304171.9752",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/fc3d0373-02c6-41ac-9344-8bc55b1ca3c8.webp?1706304175.9869"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/cb6fe3a0-ceb8-40bb-a513-117db74f7dfd.webp?1727859153.7734",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/cb6fe3a0-ceb8-40bb-a513-117db74f7dfd.webp?1727859152.9625",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/cb6fe3a0-ceb8-40bb-a513-117db74f7dfd.webp?1727859154.7271"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50393,
+                        "name": "Творог",
+                        "slug": "tvorog",
+                        "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/tvorog/"
+                    },
+                    {
+                        "id": 50388,
+                        "name": "Молочные продукты, яйцо",
+                        "slug": "molochnye-produkty-yaytso",
+                        "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "белки 16 г, жиры 9 г, углеводы 3 г; 157 ккал Поставщики:АО \"ТМК\";ООО \"КУРСКОЕ МОЛОКО\";ЗАО ЗСМ \"МОЖАЙСКИЙ\";ООО \"ЛЕБЕДЯНЬМОЛОКО\";ООО \"МИЛКЭКСПРЕСС\";ООО ФИРМА \"КАЛОРИЯ\""
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "АО \"ТМК\":молоко цельное, молоко обезжиренное, заквасочные культуры.;<br>ООО \"КУРСКОЕ МОЛОКО\":молоко нормализованное пастеризованное, закваска;<br>ЗАО ЗСМ \"МОЖАЙСКИЙ\":молоко нормализованное, закваска  молочнокислых микроорганизмов, молокосвертывающий ферментный препарат животного происхождения- пепсин пищевой говяжий;<br>ООО \"ЛЕБЕДЯНЬМОЛОКО\":молоко обезжиренное, молоко цельное, заквасочные молочнокислые культуры;<br>ООО \"МИЛКЭКСПРЕСС\":молоко нормализованное, закваска;<br>ООО ФИРМА \"КАЛОРИЯ\":молоко цельное, молоко обезжиренное, уплотнитель - хлорид кальция, заквасочные микроорганизмы.;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 188,
+                "xml_id": 188,
+                "name": "Творог 9%, 400&nbsp;г",
+                "slug": "tvorog-9",
+                "description": "Классический творог с насыщенным вкусом и привычной натуральной консистенцией. Небольшие комочки и неоднородность текстуры естественны для этого продукта, так как творог делают из молока и закваски, без дополнительной обработки для идеальной гладкости. Хорошо подходит для завтраков, выпечки или как самостоятельное блюдо со сметаной, зеленью или ягодами. Массовая доля жира 9%.",
+                "price": {
+                    "current": 207,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 4.9,
+                    "count": 28644
+                },
+                "url": "https://vkusvill.ru/goods/tvorog-9-188/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/94980b8c-33a4-4e87-93bf-b9028c6a3b07.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/94980b8c-33a4-4e87-93bf-b9028c6a3b07.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/94980b8c-33a4-4e87-93bf-b9028c6a3b07.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/58db770e-38f9-4e7a-a7c8-38cb39564484.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/58db770e-38f9-4e7a-a7c8-38cb39564484.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/58db770e-38f9-4e7a-a7c8-38cb39564484.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/935b6dc0-a927-45e0-af0a-dd75effaf3dd.webp?1722627746.975",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/935b6dc0-a927-45e0-af0a-dd75effaf3dd.webp?1722627745.083",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/935b6dc0-a927-45e0-af0a-dd75effaf3dd.webp?1722627749.0801"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/8caac752-6d18-43c6-ac59-d161e72d3367.webp?1708050504.1962",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/8caac752-6d18-43c6-ac59-d161e72d3367.webp?1708050502.0535",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/8caac752-6d18-43c6-ac59-d161e72d3367.webp?1708050506.5708"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/67e45edd-38ca-4d75-8eb7-caa69356985c.webp?1680123016.4512",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/67e45edd-38ca-4d75-8eb7-caa69356985c.webp?1680123015.4191",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/67e45edd-38ca-4d75-8eb7-caa69356985c.webp?1680123017.5127"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/12c95026-24e6-403e-910b-8c0115f47806.webp?1708050541.1052",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/12c95026-24e6-403e-910b-8c0115f47806.webp?1708050539.7767",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/12c95026-24e6-403e-910b-8c0115f47806.webp?1708050542.4428"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50393,
+                        "name": "Творог",
+                        "slug": "tvorog",
+                        "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/tvorog/"
+                    },
+                    {
+                        "id": 50388,
+                        "name": "Молочные продукты, яйцо",
+                        "slug": "molochnye-produkty-yaytso",
+                        "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "белки 16 г, жиры 9 г, углеводы 3 г; 157 ккал Поставщики:ООО \"Н-ГРУПП\";ООО \"КОСМОЛ\";ООО \"МИЛКЭКСПРЕСС\";АО \"ШЕБЕКИНСКИЙ МАСЛОЗАВОД\";ООО  \"МОЛОЧНЫЙ ЗАВОД \"ПРИВОЛЖСКИЙ\";ООО \"ВЕРЕЙСКИЙ МОЛОЧНЫЙ ЗАВОД\""
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ООО \"Н-ГРУПП\":молоко нормализованное, закваска, молокосвертывающий фермент животного происхождения;<br>ООО \"КОСМОЛ\":молоко нормализованное (молоко цельное, молоко обезжиренное), закваска молочнокислых микроорганизмов.;<br>ООО \"МИЛКЭКСПРЕСС\":молоко обезжиренное, молоко цельное, закваска.;<br>АО \"ШЕБЕКИНСКИЙ МАСЛОЗАВОД\":молоко нормализованное , закваска молочнокислых культур.;<br>ООО  \"МОЛОЧНЫЙ ЗАВОД \"ПРИВОЛЖСКИЙ\":молоко цельное, молоко обезжиренное, закваска.;<br>ООО \"ВЕРЕЙСКИЙ МОЛОЧНЫЙ ЗАВОД\":молоко нормализованное, закваска (бакконцентрат лактококков или смеси лактококков и термофильных молочнокислых стрептококков), сычужный фермент - химозин.;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 80814,
+                "xml_id": 80814,
+                "name": "Творог для сырников 5%, 200&nbsp;г",
+                "slug": "tvorog-dlya-syrnikov-5",
+                "description": "Этот нежный однородный творог идеально подходит для домашних сырников: он в меру пластичный и хорошо держит форму. К тому же в нём минимум влаги, поэтому тесто можно приготовить без муки. Или же вместо пшеничной добавить немного рисовой: сырники получатся очень пышными и более полезными.",
+                "price": {
+                    "current": 134,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 4.8,
+                    "count": 23892
+                },
+                "url": "https://vkusvill.ru/goods/tvorog-dlya-syrnikov-5-80814/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/63c0a540-aa22-4b69-9fd2-ca7f46dbe2e1.webp?1744397187.5681",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/63c0a540-aa22-4b69-9fd2-ca7f46dbe2e1.webp?1744397185.4843",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/63c0a540-aa22-4b69-9fd2-ca7f46dbe2e1.webp?1744397189.3337"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/95dc3642-7ba0-406a-a682-44c965bb972e.webp?1739254699.314",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/95dc3642-7ba0-406a-a682-44c965bb972e.webp?1739254698.163",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/95dc3642-7ba0-406a-a682-44c965bb972e.webp?1739254700.5038"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/acad7e5e-110b-422e-bbe9-cc6b0b99b41c.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/acad7e5e-110b-422e-bbe9-cc6b0b99b41c.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/acad7e5e-110b-422e-bbe9-cc6b0b99b41c.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/dd880fec-be3b-4ea6-854a-1d4d94e67014.webp?1725743670.0788",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/dd880fec-be3b-4ea6-854a-1d4d94e67014.webp?1725743669.3762",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/dd880fec-be3b-4ea6-854a-1d4d94e67014.webp?1725743670.7896"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/b8ad4998-013f-4f40-93ae-7e7b5f8c3576.webp?1725743687.7976",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/b8ad4998-013f-4f40-93ae-7e7b5f8c3576.webp?1725743686.9436",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/b8ad4998-013f-4f40-93ae-7e7b5f8c3576.webp?1725743688.598"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50393,
+                        "name": "Творог",
+                        "slug": "tvorog",
+                        "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/tvorog/"
+                    },
+                    {
+                        "id": 50388,
+                        "name": "Молочные продукты, яйцо",
+                        "slug": "molochnye-produkty-yaytso",
+                        "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "белки 16 г, жиры 5 г, углеводы 3 г; 121 ккал"
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ЗАО ЗСМ \"МОЖАЙСКИЙ\":молоко нормализованное, закваска молочнокислых микроорганизмов, молокосвертывающий ферментный препарат животного происхождения.;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 69259,
+                "xml_id": 69259,
+                "name": "Творог \"Зернышко\" 2,5%, 200&nbsp;г",
+                "slug": "tvorog-zernyshko-2",
+                "description": "Зернёный творог пониженной жирности. Изготовлен из двух ингредиентов: молока и закваски. Отлично подходит для полезных завтраков и ПП-десертов. А ещё творогом можно дополнить салат из свежих овощей — будет вкусно и питательно!",
+                "price": {
+                    "current": 122,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 4.8,
+                    "count": 40685
+                },
+                "url": "https://vkusvill.ru/goods/tvorog-zernyshko-2-69259/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/fd9c36bb-0ba6-4722-b3c5-2337eee22577.webp?1729611363.2021",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/fd9c36bb-0ba6-4722-b3c5-2337eee22577.webp?1729611361.0046",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/fd9c36bb-0ba6-4722-b3c5-2337eee22577.webp?1729611365.0823"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/9efa03ad-c5f5-4342-b0f5-433fd16a14da.webp?1708050697.8294",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/9efa03ad-c5f5-4342-b0f5-433fd16a14da.webp?1708050695.7012",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/9efa03ad-c5f5-4342-b0f5-433fd16a14da.webp?1708050700.12"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/f5d8b302-bfb8-4424-afc8-18e1528f5dd5.webp?1727859138.1762",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/f5d8b302-bfb8-4424-afc8-18e1528f5dd5.webp?1727859137.5334",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/f5d8b302-bfb8-4424-afc8-18e1528f5dd5.webp?1727859139.0384"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/c43c3c34-e855-41bc-96b0-351da77b60cb.webp?1708050746.8478",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/c43c3c34-e855-41bc-96b0-351da77b60cb.webp?1708050745.7302",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/c43c3c34-e855-41bc-96b0-351da77b60cb.webp?1708050748.2727"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50393,
+                        "name": "Творог",
+                        "slug": "tvorog",
+                        "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/tvorog/"
+                    },
+                    {
+                        "id": 50388,
+                        "name": "Молочные продукты, яйцо",
+                        "slug": "molochnye-produkty-yaytso",
+                        "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "ООО \"КУРСКОЕ МОЛОКО\": белки 12 г, жиры 2.5 г, углеводы 1 г; 74.5 ккал<br>ООО \"ЛЮБИМЫЙ ГОРОД\": белки 15 г, жиры 2.5 г, углеводы 3 г; 94.5 ккал"
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ООО \"КУРСКОЕ МОЛОКО\":молоко нормализованное пастеризованное, закваска молочнокислых микроорганизмов;<br>ООО \"ЛЮБИМЫЙ ГОРОД\":молоко нормализованное, закваска молочнокислых микроорганизмов.;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 64215,
+                "xml_id": 64215,
+                "name": "Творог для сырников 9% 350&nbsp;г",
+                "slug": "tvorog-dlya-syrnikov-9-350-g",
+                "description": "Этот творог с лёгкой, привычной для натурального продукта кислинкой, которая особенно хороша в выпечке. Он в меру пластичный, с нежной и однородной текстурой, держит форму. Подходит для сырников — они получатся пышными и воздушными. Массовая доля жира 9%",
+                "price": {
+                    "current": 203,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 4.8,
+                    "count": 63142
+                },
+                "url": "https://vkusvill.ru/goods/tvorog-dlya-syrnikov-9-350-g-64215/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/f37078c4-534a-4884-a4c9-cdf48f16f50f.webp?1740431404.1735",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/f37078c4-534a-4884-a4c9-cdf48f16f50f.webp?1740431401.8319",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/f37078c4-534a-4884-a4c9-cdf48f16f50f.webp?1740431406.2251"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/4d4a78e9-8ff6-4ff2-b3c6-fc1d7b42b8ea.webp?1739254758.514",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/4d4a78e9-8ff6-4ff2-b3c6-fc1d7b42b8ea.webp?1739254757.2317",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/4d4a78e9-8ff6-4ff2-b3c6-fc1d7b42b8ea.webp?1739254759.749"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/626b9821-9fcf-46cd-b4d9-6d9caeeb156b.webp?1724705489.4124",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/626b9821-9fcf-46cd-b4d9-6d9caeeb156b.webp?1724705487.408",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/626b9821-9fcf-46cd-b4d9-6d9caeeb156b.webp?1724705491.3226"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50393,
+                        "name": "Творог",
+                        "slug": "tvorog",
+                        "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/tvorog/"
+                    },
+                    {
+                        "id": 50388,
+                        "name": "Молочные продукты, яйцо",
+                        "slug": "molochnye-produkty-yaytso",
+                        "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "ЗАО ЗСМ \"МОЖАЙСКИЙ\": белки 16 г, жиры 9 г, углеводы 3 г; 157 ккал<br>ООО \"МИЛКЭКСПРЕСС\": белки 14 г, жиры 9 г, углеводы 3 г; 149 ккал<br>ООО \"КУРЬЯНОВСКИЙ МОЛОЧНЫЙ ЗАВОД\": белки 16 г, жиры 9 г, углеводы 2 г; 153 ккал"
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ЗАО ЗСМ \"МОЖАЙСКИЙ\":молоко нормализованное, закваска молочнокислых микроорганизмов, молокосвертывающий ферментный препарат животного происхождения.;<br>ООО \"МИЛКЭКСПРЕСС\":молоко нормализованное, закваска.;<br>ООО \"КУРЬЯНОВСКИЙ МОЛОЧНЫЙ ЗАВОД\":молоко нормализованное, закваска молочнокислых микроорганизмов.;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 112616,
+                "xml_id": 112616,
+                "name": "Творог обезжиренный высокобелковый, 200&nbsp;г",
+                "slug": "tvorog-obezzhirennyy-vysokobelkovyy",
+                "description": "Обезжиренный творог с высоким содержанием белка — в упаковке 200 г целых 42 г чистого белка. Подходит как для самостоятельного завтрака, так и для добавления в смузи или выпечку. В составе только обезжиренное молоко и закваска, без добавок и ароматизаторов. Такой творог подойдёт тем, кто следит за рационом и балансом белка.",
+                "price": {
+                    "current": 152,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 4.9,
+                    "count": 26139
+                },
+                "url": "https://vkusvill.ru/goods/tvorog-obezzhirennyy-vysokobelkovyy-112616/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/392846b2-95cb-45b5-ae93-8c573825fe23.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/392846b2-95cb-45b5-ae93-8c573825fe23.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/392846b2-95cb-45b5-ae93-8c573825fe23.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/b7b04910-8ef4-4cce-a80d-011fd9e439d2.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/b7b04910-8ef4-4cce-a80d-011fd9e439d2.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/b7b04910-8ef4-4cce-a80d-011fd9e439d2.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50393,
+                        "name": "Творог",
+                        "slug": "tvorog",
+                        "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/tvorog/"
+                    },
+                    {
+                        "id": 50388,
+                        "name": "Молочные продукты, яйцо",
+                        "slug": "molochnye-produkty-yaytso",
+                        "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "белки 21 г, жиры 0.5 г, углеводы 1.5 г; 94.5 ккал"
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ООО \"ПК\"ОБНИНСКИЕ МОЛОЧНЫЕ ПРОДУКТЫ\":молоко обезжиренное, закваска.;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 37483,
+                "xml_id": 37483,
+                "name": "Творог мягкий высокобелковый 6%",
+                "slug": "tvorog-myagkiy-vysokobelkovyy-6",
+                "description": "Мягкий натуральный творог с повышенным содержанием белка — это не только завтрак чемпионов, но и замечтальный компаньон для хрустящих тостов, блинчиков и полезных сэндвичей. Он обладает нежной однородной консистенцией и деликатным молочным вкусом практически без кислинки. Такой творог можно превратить в десерт, дополнив его ягодами, орехами и мёдом, а можно использовать для приготовления творожных муссов и пудингов. Продукт выпускается разными производителями, поэтому вкус и консистенция могут немного отличаться. При этом стандарты производства и качества остаются неизменными.",
+                "price": {
+                    "current": 85,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 4.8,
+                    "count": 26193
+                },
+                "url": "https://vkusvill.ru/goods/tvorog-myagkiy-vysokobelkovyy-6-37483/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/650f83ae-1d25-401e-8fb7-3e8d1e7c2cb7.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/650f83ae-1d25-401e-8fb7-3e8d1e7c2cb7.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/650f83ae-1d25-401e-8fb7-3e8d1e7c2cb7.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/c30db2e7-4b0e-4a0c-8b97-6a5cfe9417cf.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/c30db2e7-4b0e-4a0c-8b97-6a5cfe9417cf.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/c30db2e7-4b0e-4a0c-8b97-6a5cfe9417cf.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/9782119f-dcd2-4b4b-a56e-b9c90baad1f6.webp?1728076424.7237",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/9782119f-dcd2-4b4b-a56e-b9c90baad1f6.webp?1728076422.7357",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/9782119f-dcd2-4b4b-a56e-b9c90baad1f6.webp?1728076426.7216"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/3b58b7ba-9b21-4554-81fd-45bab02fd999.webp?1728076461.3068",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/3b58b7ba-9b21-4554-81fd-45bab02fd999.webp?1728076459.363",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/3b58b7ba-9b21-4554-81fd-45bab02fd999.webp?1728076463.055"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/827ded0b-bae3-4b22-9e55-e391d440c8e6.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/827ded0b-bae3-4b22-9e55-e391d440c8e6.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/827ded0b-bae3-4b22-9e55-e391d440c8e6.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/25c6d8d9-c7d0-47a2-90c2-9ef732031025.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/25c6d8d9-c7d0-47a2-90c2-9ef732031025.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/25c6d8d9-c7d0-47a2-90c2-9ef732031025.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50393,
+                        "name": "Творог",
+                        "slug": "tvorog",
+                        "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/tvorog/"
+                    },
+                    {
+                        "id": 50388,
+                        "name": "Молочные продукты, яйцо",
+                        "slug": "molochnye-produkty-yaytso",
+                        "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "белки 9 г, жиры 6 г, углеводы 3.5 г; 104 ккал"
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "Молочный комбинат Пензенский ОАО:молоко нормализованное, заквасочная культура микроорганизмов Lactococcus lactis ssp cremoris.;<br>"
+                    }
+                ]
+            }
+        ],
+        "facets": {
+            "categories": [
+                {
+                    "category_id": 96,
+                    "category_name": "Молочные продукты",
+                    "subcategory_name": ""
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "ok": true,
+    "data": {
+        "id": 79663,
+        "xml_id": 79663,
+        "name": "Вода питьевая негазированная, 5&nbsp;л",
+        "slug": "voda-pitevaya-negazirovannaya",
+        "description": "Кристально чистая вода для питья, приготовления пищи и бытовых нужд. Обработана с применением обратного осмоса, УФ-облучения и озонирования. Также используется фильтр тонкой очистки и умягчитель. Не оставляет накипи. Уровень pH — 7,2. Общая минерализация 0,05–1 г/л.",
+        "brand": "ВкусВилл",
+        "price": {
+            "current": 103,
+            "currency": "RUB",
+            "old": 117,
+            "discount_percent": 11.97
+        },
+        "unit": "шт",
+        "weight": {
+            "value": 5,
+            "unit": "кг"
+        },
+        "rating": {
+            "average": 5,
+            "count": 118386
+        },
+        "url": "https://vkusvill.ru/goods/voda-pitevaya-negazirovannaya-79663/",
+        "images": [
+            {
+                "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/735bddda-5cb5-4cb4-a138-4097934f2c2a.webp",
+                "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/735bddda-5cb5-4cb4-a138-4097934f2c2a.webp",
+                "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/735bddda-5cb5-4cb4-a138-4097934f2c2a.webp"
+            },
+            {
+                "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/a88176f5-5223-45c7-914e-2c51bf1ac1aa.webp",
+                "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/a88176f5-5223-45c7-914e-2c51bf1ac1aa.webp",
+                "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/a88176f5-5223-45c7-914e-2c51bf1ac1aa.webp"
+            },
+            {
+                "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/2af2c061-d7df-4627-ae05-efb8bfe5003e.webp?1720999526.3029",
+                "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/2af2c061-d7df-4627-ae05-efb8bfe5003e.webp?1720999524.4442",
+                "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/2af2c061-d7df-4627-ae05-efb8bfe5003e.webp?1720999527.9829"
+            },
+            {
+                "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/b9c5bf87-1e22-4721-9cc0-4cb3fcfc6ab2.webp?1704491324.1045",
+                "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/b9c5bf87-1e22-4721-9cc0-4cb3fcfc6ab2.webp?1704491322.2266",
+                "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/b9c5bf87-1e22-4721-9cc0-4cb3fcfc6ab2.webp?1704491325.9786"
+            },
+            {
+                "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/b35dc939-2bf5-4604-af6d-668a4444182e.webp?1721161286.9286",
+                "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/b35dc939-2bf5-4604-af6d-668a4444182e.webp?1721161284.6303",
+                "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/b35dc939-2bf5-4604-af6d-668a4444182e.webp?1721161289.2478"
+            },
+            {
+                "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/8fbd3da5-4752-4837-83b7-e56f45cb3460.webp?1704491297.789",
+                "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/8fbd3da5-4752-4837-83b7-e56f45cb3460.webp?1704491296.1538",
+                "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/8fbd3da5-4752-4837-83b7-e56f45cb3460.webp?1704491299.3578"
+            }
+        ],
+        "category": [
+            {
+                "id": 50416,
+                "name": "Вода",
+                "slug": "voda",
+                "url": "https://vkusvill.ru/goods/napitki/voda/"
+            },
+            {
+                "id": 50415,
+                "name": "Напитки",
+                "slug": "napitki",
+                "url": "https://vkusvill.ru/goods/napitki/"
+            }
+        ],
+        "properties": [
+            {
+                "name": "Состав",
+                "value": "ООО \"АГРОФЛОРА\":Основной состав, мг/л: гидрокарбонаты 50-300; кальций 5-35; магний 2-20; хлориды 0,1-10,0; сульфаты 0,1-10,0; натрий 0,1-5,0; калий 0,1-5,0; общая минерализация, г/л: 0,05-1,0; общая жесткость, мг-экв/л: 0,3-2,0;<br>ООО \"АКВА ЛИГА\":Основной состав, мг/дм3: кальций 0,1-80; магний 0,1-30; калий 0,01-10; натрий 0,5-150; гидрокарбонаты 30-400; хлориды 0,5-150; сульфаты 0,5-150; общая минерализация, г/л: 0,05-0,7; общая жёсткость: 0,1-7,0 мг-экв/л;<br>"
+            },
+            {
+                "name": "Срок годности",
+                "value": "12 Месяцев Поставщики: АГРОФЛОРА ООО; АКВА ЛИГА ООО"
+            },
+            {
+                "name": "Условия хранения по производителю",
+                "value": "АГРОФЛОРА ООО: Хранить при температуре от 2 до 25 C° ; АКВА ЛИГА ООО: Хранить при температуре от 2 до 20 C° ;"
+            },
+            {
+                "name": "Страна производства",
+                "value": "РОССИЯ Поставщики: АГРОФЛОРА ООО; АКВА ЛИГА ООО;"
+            },
+            {
+                "name": "Изготовитель",
+                "value": "ООО \"АГРОФЛОРА\":Россия, 601351, Владимирская обл., Судогодский р-он, муниципальное образование с/п Лавровское, д. Старое Полхово. ООО \"АКВА ЛИГА\":Россия, 142715, Московская область, Ленинский городской округ, город Видное, проезд Проектируемый № 5208 (Северная Промзона), дом № 6. "
+            },
+            {
+                "name": "Информация на этикетке может незначительно отличаться",
+                "value": "Данный товар поставляют несколько производителей, внешний вид и характеристики могут незначительно отличаться. Актуальные данные указаны на этикетке. Цена может отличаться в зависимости от региона или формата точки продажи (вендинг, микромаркет)."
+            }
+        ]
+    }
+}
