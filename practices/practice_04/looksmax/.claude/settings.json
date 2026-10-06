@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sh scripts/check.sh)",
+      "Bash(.venv/bin/python *)",
+      "Bash(node --check *)",
+      "Bash(node tools/screenshot.mjs *)",
+      "mcp__vkusvill__vkusvill_products_search",
+      "mcp__vkusvill__vkusvill_product_details",
+      "mcp__vkusvill__vkusvill_product_analogs",
+      "mcp__vkusvill__vkusvill_cart_link_create",
+      "mcp__looksmax",
+      "Skill(test-driven-development)",
+      "Skill(frontend-design)"
+    ],
+    "deny": [
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "mcp__vkusvill__vkusvill_orders_history",
+      "mcp__vkusvill__vkusvill_product_lp"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/check-after-edit.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

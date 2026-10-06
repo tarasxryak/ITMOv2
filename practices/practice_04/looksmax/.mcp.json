@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "vkusvill": {
+      "type": "http",
+      "url": "https://mcp.vkusvill.ru/mcp"
+    },
+    "looksmax": {
+      "type": "stdio",
+      "command": ".venv/bin/python",
+      "args": ["server.py"]
+    }
+  }
+}

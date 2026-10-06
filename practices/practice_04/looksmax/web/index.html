@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Looksmax Grocery</title>
+  <meta name="description" content="Угадай, какой продукт ВкусВилла пизже по белку. 10 раундов, лукс-коины и ранг от sub3 до true adam.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Unbounded:wght@500;700;900&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="bar">
+    <a class="logo" href="./">Looksmax<br>Grocery</a>
+    <div class="bar__progress" id="progress" hidden></div>
+    <p class="coins" id="coins" aria-live="polite"></p>
+  </header>
+
+  <main id="app" tabindex="-1">
+    <noscript><p class="note">Для игры нужен JavaScript.</p></noscript>
+  </main>
+
+  <p class="sr-only" id="announcer" aria-live="assertive"></p>
+
+  <script src="rounds.js"></script>
+  <script src="game-logic.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

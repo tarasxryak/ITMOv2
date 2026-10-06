@@ -1,0 +1,670 @@
+{
+    "ok": true,
+    "data": {
+        "meta": {
+            "q": "вода питьевая",
+            "limit": 10,
+            "total": 139,
+            "page": 1,
+            "pages": 14,
+            "has_more": true,
+            "personalized": false
+        },
+        "items": [
+            {
+                "id": 79663,
+                "xml_id": 79663,
+                "name": "Вода питьевая негазированная, 5&nbsp;л",
+                "slug": "voda-pitevaya-negazirovannaya",
+                "description": "Кристально чистая вода для питья, приготовления пищи и бытовых нужд. Обработана с применением обратного осмоса, УФ-облучения и озонирования. Также используется фильтр тонкой очистки и умягчитель. Не оставляет накипи. Уровень pH — 7,2. Общая минерализация 0,05–1 г/л.",
+                "price": {
+                    "current": 103,
+                    "currency": "RUB",
+                    "old": 117,
+                    "discount_percent": 11.97,
+                    "discount_info": "При покупке от 2 шт по 11.10 только онлайн"
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 5,
+                    "count": 118386
+                },
+                "url": "https://vkusvill.ru/goods/voda-pitevaya-negazirovannaya-79663/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/735bddda-5cb5-4cb4-a138-4097934f2c2a.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/735bddda-5cb5-4cb4-a138-4097934f2c2a.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/735bddda-5cb5-4cb4-a138-4097934f2c2a.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/a88176f5-5223-45c7-914e-2c51bf1ac1aa.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/a88176f5-5223-45c7-914e-2c51bf1ac1aa.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/a88176f5-5223-45c7-914e-2c51bf1ac1aa.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/2af2c061-d7df-4627-ae05-efb8bfe5003e.webp?1720999526.3029",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/2af2c061-d7df-4627-ae05-efb8bfe5003e.webp?1720999524.4442",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/2af2c061-d7df-4627-ae05-efb8bfe5003e.webp?1720999527.9829"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/b9c5bf87-1e22-4721-9cc0-4cb3fcfc6ab2.webp?1704491324.1045",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/b9c5bf87-1e22-4721-9cc0-4cb3fcfc6ab2.webp?1704491322.2266",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/b9c5bf87-1e22-4721-9cc0-4cb3fcfc6ab2.webp?1704491325.9786"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/b35dc939-2bf5-4604-af6d-668a4444182e.webp?1721161286.9286",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/b35dc939-2bf5-4604-af6d-668a4444182e.webp?1721161284.6303",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/b35dc939-2bf5-4604-af6d-668a4444182e.webp?1721161289.2478"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/8fbd3da5-4752-4837-83b7-e56f45cb3460.webp?1704491297.789",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/8fbd3da5-4752-4837-83b7-e56f45cb3460.webp?1704491296.1538",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/8fbd3da5-4752-4837-83b7-e56f45cb3460.webp?1704491299.3578"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50416,
+                        "name": "Вода",
+                        "slug": "voda",
+                        "url": "https://vkusvill.ru/goods/napitki/voda/"
+                    },
+                    {
+                        "id": 50415,
+                        "name": "Напитки",
+                        "slug": "napitki",
+                        "url": "https://vkusvill.ru/goods/napitki/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": null
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ООО \"АГРОФЛОРА\":Основной состав, мг/л: гидрокарбонаты 50-300; кальций 5-35; магний 2-20; хлориды 0,1-10,0; сульфаты 0,1-10,0; натрий 0,1-5,0; калий 0,1-5,0; общая минерализация, г/л: 0,05-1,0; общая жесткость, мг-экв/л: 0,3-2,0;<br>ООО \"АКВА ЛИГА\":Основной состав, мг/дм3: кальций 0,1-80; магний 0,1-30; калий 0,01-10; натрий 0,5-150; гидрокарбонаты 30-400; хлориды 0,5-150; сульфаты 0,5-150; общая минерализация, г/л: 0,05-0,7; общая жёсткость: 0,1-7,0 мг-экв/л;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 27474,
+                "xml_id": 27474,
+                "name": "Вода детская питьевая, 5&nbsp;л",
+                "slug": "voda-detskaya-pitevaya",
+                "description": "Природная минеральная вода для детей с первых дней жизни. Не требует кипячения, подходит для питья, приготовления пищи и восстановления сухих смесей. Вода добывается из скважины на территории Архызского ущелья в Карачаево-Черкесской республике. Это экологически чистый район, вблизи которого нет не только промышленных предприятий, но и населенных пунктов. Возможно выпадение осадка, не является ухудшением качества продукта.",
+                "price": {
+                    "current": 140,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 4.9,
+                    "count": 59247
+                },
+                "url": "https://vkusvill.ru/goods/voda-detskaya-pitevaya-27474/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/2cec8bf1-42d7-4215-8f36-5834467ce923.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/2cec8bf1-42d7-4215-8f36-5834467ce923.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/2cec8bf1-42d7-4215-8f36-5834467ce923.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/d511fa5a-cf38-4fe5-980c-5814ab20a2cf.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/d511fa5a-cf38-4fe5-980c-5814ab20a2cf.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/d511fa5a-cf38-4fe5-980c-5814ab20a2cf.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50416,
+                        "name": "Вода",
+                        "slug": "voda",
+                        "url": "https://vkusvill.ru/goods/napitki/voda/"
+                    },
+                    {
+                        "id": 50415,
+                        "name": "Напитки",
+                        "slug": "napitki",
+                        "url": "https://vkusvill.ru/goods/napitki/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": null
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "АО «АКВАЛАЙН»:Гидрокарбонаты 50-150; Хлориды менее 15; Сульфаты менее 15; Кальций менее 60; Магний менее 50; Натрий + Калий менее 20; Минерализация 0,1-0,35 г/дм3;<br>ООО \"АРХЫЗ ОРИГИНАЛ\":Основной состав, мг/л: гидрокарбонаты (НСО₃¯) 150-250; кальций (Ca²⁺) 25-50; натрий (Na⁺) 5-20; хлориды (Cl¯) 3-50; сульфаты (SO₄²¯) 2-25; магний (Mg²⁺) 5-20; калий (K⁺) 1-3; йодиды (I¯) 0,01-0,06; общая минерализация, г/л: 0,1-0,35; общая жесткость, мг-экв/л: 1-7;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 373,
+                "xml_id": 373,
+                "name": "Вода родниковая негазированная, 1,5&nbsp;л",
+                "slug": "voda-rodnikovaya-negazirovannaya",
+                "description": "Настоящая родниковая вода. Она самотёком выходит из земли и проходит только самые необходимые степени очистки: грубую и тонкую фильтрацию, обработку ультрафиолетом. Поэтому её природный минеральный состав сохраняется в полной мере. Уровень pH: 7,62 (ООО Аква-Россини); 4,5–9,5 (ООО Светлояр); 6,5–8,5 (ООО Серебряное Наследие). Обратите внимание: вода чувствительна к условиями хранения, следуйте рекомендациям на этикетке.",
+                "price": {
+                    "current": 63,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 5,
+                    "count": 60024
+                },
+                "url": "https://vkusvill.ru/goods/voda-rodnikovaya-negazirovannaya-373/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/93e956d6-d563-41f2-a0bf-2e49d6d79a5d.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/93e956d6-d563-41f2-a0bf-2e49d6d79a5d.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/93e956d6-d563-41f2-a0bf-2e49d6d79a5d.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/e2b12406-519a-4405-8680-ec6e278123da.webp?1781284432",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/e2b12406-519a-4405-8680-ec6e278123da.webp?1781284432",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/e2b12406-519a-4405-8680-ec6e278123da.webp?1781284434"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/e0e6dc21-e2ff-4415-8e39-2f10e0ac1203.webp?1781284349",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/e0e6dc21-e2ff-4415-8e39-2f10e0ac1203.webp?1781284350",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/e0e6dc21-e2ff-4415-8e39-2f10e0ac1203.webp?1781284350"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/7f27279b-0049-41fe-a3da-9af6c4d475a5.webp?1787120299",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/7f27279b-0049-41fe-a3da-9af6c4d475a5.webp?1787120297",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/7f27279b-0049-41fe-a3da-9af6c4d475a5.webp?1787120300"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/4eb60c1a-6a0f-4184-be6d-103a9d7b1c89.webp?1703623228.1764",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/4eb60c1a-6a0f-4184-be6d-103a9d7b1c89.webp?1703623226.2863",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/4eb60c1a-6a0f-4184-be6d-103a9d7b1c89.webp?1703623230.3741"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/65068ca3-c889-4b0e-bdab-9b067d6bc116.webp?1705012154.1344",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/65068ca3-c889-4b0e-bdab-9b067d6bc116.webp?1705012152.9514",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/65068ca3-c889-4b0e-bdab-9b067d6bc116.webp?1705012155.6024"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/b178bb63-97dd-4cdc-868f-418680bf5dba.webp?1703623259.8437",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/b178bb63-97dd-4cdc-868f-418680bf5dba.webp?1703623257.482",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/b178bb63-97dd-4cdc-868f-418680bf5dba.webp?1703623262.0826"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50416,
+                        "name": "Вода",
+                        "slug": "voda",
+                        "url": "https://vkusvill.ru/goods/napitki/voda/"
+                    },
+                    {
+                        "id": 50415,
+                        "name": "Напитки",
+                        "slug": "napitki",
+                        "url": "https://vkusvill.ru/goods/napitki/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": null
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ООО \"СВЕТЛОЯР\":Основной состав, мг/л: кальций 40 - 70, магний 10 - 40, натрий 0-20, калий 0 - 10, гидрокарбонаты 150 - 400, хлориды 0 - 35, сульфаты 0 - 40. Общая минерализация, г/л: 0,2 - 0,4;<br>ООО \"СЕРЕБРЯНОЕ НАСЛЕДИЕ\":Основной состав, мг/л: натрий 5-200; кальций 10-130; магний 1-50; калий 0,1-10; гидрокарбонаты 1-400; сульфаты 0,1-250; хлориды 2-250; общая минерализация, мг/л: 50-1000; общая жесткость, мг-экв/л: 1-7;<br>ООО \"АКВА-РОССИНИ\":Основной состав, мг/л: натрий 2-15; кальций 15-130; магний 3-25; калий 0,3-5,0; гидрокарбонаты 30-400; сульфаты 5-50; хлориды 2-25; общая минерализация, мг/л: 100-450; общая жесткость, мг-экв/л: 1,2-6,0;<br>ООО ТД \"КУВАКА\":Основной состав, мг/дм³: гидрокарбонаты 200-400; кальций 50-100; магний 5-50; сульфаты 5-50; хлориды 0,5-30; натрий + калий 1-20 (включая натрий - 1-15, калий - 0,1-5); общая минерализация: 0,3-0,6 г/дм³;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 48589,
+                "xml_id": 48589,
+                "name": "Вода минеральная \"Легенда гор Архыз\", негаз., 5&nbsp;л",
+                "slug": "voda-mineralnaya-legenda-gor-arkhyz",
+                "description": "Талая природная вода, добытая в горах Карачаево-Черкесии. Просачиваясь через горные породы, она обогащается полезными микроэлементами и приобретает свой живой, мягкий, кристально чистый вкус. Общая минерализация — 0,1–0,25 граммов на литр. Уровень pH: ~7 (Аквалайн АО).",
+                "price": {
+                    "current": 145,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 5,
+                    "count": 72460
+                },
+                "url": "https://vkusvill.ru/goods/voda-mineralnaya-legenda-gor-arkhyz-48589/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/2c2e4c66-d2de-4ce8-aa2d-755a62d17cbd.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/2c2e4c66-d2de-4ce8-aa2d-755a62d17cbd.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/2c2e4c66-d2de-4ce8-aa2d-755a62d17cbd.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50416,
+                        "name": "Вода",
+                        "slug": "voda",
+                        "url": "https://vkusvill.ru/goods/napitki/voda/"
+                    },
+                    {
+                        "id": 50415,
+                        "name": "Напитки",
+                        "slug": "napitki",
+                        "url": "https://vkusvill.ru/goods/napitki/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": null
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "АО «АКВАЛАЙН»:Основной состав: мг/л Гидрокарбонаты 50-200 Кальций 5-50 Магний 2-20 Натрий+Калий 3-50 Сульфаты 3-15 Хлориды 2-15 Общая минерализация 0,1-0,25 г/л;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 121831,
+                "xml_id": 121831,
+                "name": "Вода питьевая артезианская негазированная (набор 12 шт х 500 мл)",
+                "slug": "voda-pitevaya-artezianskaya-negazirovannaya-nabor-12-sht-kh-500-ml",
+                "description": "Негазированная артезианская вода с общей минерализацией 0,1–0,3 г/л. Подходит для ежедневного употребления, приготовления напитков и еды. В наборе 12 бутылок по 500 мл — удобно держать дома, брать с собой на прогулку, тренировку или в дорогу",
+                "price": {
+                    "current": 340,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 4.9,
+                    "count": 1992
+                },
+                "url": "https://vkusvill.ru/goods/voda-pitevaya-artezianskaya-negazirovannaya-nabor-12-sht-kh-500-ml-121831/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/e64c7f51-a0aa-4e4e-88ec-25455e83bb56.webp?1783544128",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/e64c7f51-a0aa-4e4e-88ec-25455e83bb56.webp?1783544130",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/e64c7f51-a0aa-4e4e-88ec-25455e83bb56.webp?1783544131"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/7fd7e998-a957-493e-93cf-22bf90ce19f0.webp?1783544124",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/7fd7e998-a957-493e-93cf-22bf90ce19f0.webp?1783544125",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/7fd7e998-a957-493e-93cf-22bf90ce19f0.webp?1783544125"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50416,
+                        "name": "Вода",
+                        "slug": "voda",
+                        "url": "https://vkusvill.ru/goods/napitki/voda/"
+                    },
+                    {
+                        "id": 50415,
+                        "name": "Напитки",
+                        "slug": "napitki",
+                        "url": "https://vkusvill.ru/goods/napitki/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": null
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ООО \"ЭКОБРИЗ+\":Основной состав, мг/л: кальций 5-45; магний 3-30; натрий 2-100; калий 1-5; гидрокарбонаты 50-300; сульфаты 1-35; хлориды 1-15; общая минерализация, г/л: 0,1-0,3;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 121832,
+                "xml_id": 121832,
+                "name": "Вода питьевая артезианская негазированная (набор 6 шт х 1,5 л)",
+                "slug": "voda-pitevaya-artezianskaya-negazirovannaya-nabor-6-sht-kh-1",
+                "description": "Негазированная артезианская вода с общей минерализацией 0,1–0,3 г/л. Подходит для ежедневного употребления, приготовления напитков и еды. В наборе 6 бутылок по 1,5 л — удобно держать дома, брать с собой на прогулку, тренировку или в дорогу",
+                "price": {
+                    "current": 290,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 4.9,
+                    "count": 1529
+                },
+                "url": "https://vkusvill.ru/goods/voda-pitevaya-artezianskaya-negazirovannaya-nabor-6-sht-kh-1-121832/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/4ecbbdab-24c4-4de2-9c12-c6ca484944cd.webp?1783543949",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/4ecbbdab-24c4-4de2-9c12-c6ca484944cd.webp?1783543947",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/4ecbbdab-24c4-4de2-9c12-c6ca484944cd.webp?1783543948"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/ba3d3d96-15d7-4d21-bff9-0a12f6518103.webp?1783543944",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/ba3d3d96-15d7-4d21-bff9-0a12f6518103.webp?1783543943",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/ba3d3d96-15d7-4d21-bff9-0a12f6518103.webp?1783543943"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50416,
+                        "name": "Вода",
+                        "slug": "voda",
+                        "url": "https://vkusvill.ru/goods/napitki/voda/"
+                    },
+                    {
+                        "id": 50415,
+                        "name": "Напитки",
+                        "slug": "napitki",
+                        "url": "https://vkusvill.ru/goods/napitki/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": null
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ООО \"ЭКОБРИЗ+\":Основной состав, мг/л: кальций 5-45; магний 3-30; натрий 2-100; калий 1-5; гидрокарбонаты 50-300; сульфаты 1-35; хлориды 1-15; общая минерализация, г/л: 0,1-0,3;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 42674,
+                "xml_id": 42674,
+                "name": "Вода питьевая природная \"Легенда Байкала\", негаз., 750&nbsp;мл",
+                "slug": "voda-pitevaya-prirodnaya-legenda-baykala",
+                "description": "Природная вода с натуральной минерализацией. Она добывается с глубины 400 м из особых слоёв озера Байкал в 1,5 км от берега. Эти слои озера не подвержены влиянию внешних загрязнителей. Вода проходит трёхступенчатую фильтрацию и двухфазную стерилизацию. Уровень pH — 7,2–8. Упаковка — из стекла. Этот материал не выделяет вредных веществ даже при нагревании.",
+                "price": {
+                    "current": 220,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 4.9,
+                    "count": 3506
+                },
+                "url": "https://vkusvill.ru/goods/voda-pitevaya-prirodnaya-legenda-baykala-42674/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/dd906d84-b48a-44b2-9e02-3fc71bf60dc7.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/dd906d84-b48a-44b2-9e02-3fc71bf60dc7.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/dd906d84-b48a-44b2-9e02-3fc71bf60dc7.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/0307e5c2-7384-4ec3-9981-8be72a8d3e21.webp?1713437529.6132",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/0307e5c2-7384-4ec3-9981-8be72a8d3e21.webp?1713437527.6551",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/0307e5c2-7384-4ec3-9981-8be72a8d3e21.webp?1713437531.448"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50416,
+                        "name": "Вода",
+                        "slug": "voda",
+                        "url": "https://vkusvill.ru/goods/napitki/voda/"
+                    },
+                    {
+                        "id": 50415,
+                        "name": "Напитки",
+                        "slug": "napitki",
+                        "url": "https://vkusvill.ru/goods/napitki/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": null
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ООО \"ТК \"БАЙКАЛ АКВА\":ОСНОВНОЙ СОСТАВ: Гидрокарбонат 50 - 100 мг/л.; Кальций 10 – 25 мг/л.; Магний 1,0 – 5,0 мг/л.; Сульфаты 1,0 – 10,0 мг/л.; Хлориды 0,1 – 7,0 мг/л. Общая минерализация 0,05 – 0,15 г/л. Общая жесткость 1,0 -2,0 мг-экв/л. рН 7,2-8,0.;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 71833,
+                "xml_id": 71833,
+                "name": "Вода питьевая детская (артезианская ), 5&nbsp;л",
+                "slug": "voda-pitevaya-detskaya-artezianskaya-",
+                "description": "Артезианская негазированная вода для детей с первых дней жизни. Имеет сбалансированный минеральный состав и не требует кипячения. Подходит для питья, приготовления пищи и восстановления сухих смесей. Бутыль объёмом 5 л удобна для домашнего использования. Уровень pH 7.0–7.7",
+                "price": {
+                    "current": 140,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 4.9,
+                    "count": 432
+                },
+                "url": "https://vkusvill.ru/goods/voda-pitevaya-detskaya-artezianskaya--71833/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/d2ef5cb7-8c73-4a49-809a-5b5442f40aae.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/d2ef5cb7-8c73-4a49-809a-5b5442f40aae.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/d2ef5cb7-8c73-4a49-809a-5b5442f40aae.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/2672fd19-f20f-4991-b6cc-53f6eae1fc47.webp?1704490878.5606",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/2672fd19-f20f-4991-b6cc-53f6eae1fc47.webp?1704490876.7605",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/2672fd19-f20f-4991-b6cc-53f6eae1fc47.webp?1704490880.3911"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/6965f0c6-c6ca-400e-b8cd-bf6182ee2f82.webp?1704490906.9411",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/6965f0c6-c6ca-400e-b8cd-bf6182ee2f82.webp?1704490905.0841",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/6965f0c6-c6ca-400e-b8cd-bf6182ee2f82.webp?1704490908.7652"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50416,
+                        "name": "Вода",
+                        "slug": "voda",
+                        "url": "https://vkusvill.ru/goods/napitki/voda/"
+                    },
+                    {
+                        "id": 50415,
+                        "name": "Напитки",
+                        "slug": "napitki",
+                        "url": "https://vkusvill.ru/goods/napitki/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": null
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ООО НПО \"СЛАВИЧЪ\":Основной состав, мг/л: Калий .......... 2-20 Кальций ..... 10-60 Магний ....... 3-30 Натрий ....... 0-20 Хлориды ..... 0-150 Сульфаты ... 0-150 Гидрокарбонаты ..... 30-400 Биологически активные компоненты, мг/л: фториды - 0-1,0, йодиды - 0-0,060  Общая минерализация, г/л: 0,1 - 0,5 Общая жесткость, мг-экв/л: 1,0-7,0;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 107572,
+                "xml_id": 107572,
+                "name": "Вода питьевая негазированная \"Легенда Байкала\", 500&nbsp;мл",
+                "slug": "voda-pitevaya-negazirovannaya-legenda-baykala",
+                "description": "Природная вода с натуральной минерализацией. Она добывается с глубины 400 м из особых слоёв озера Байкал в 1,5 км от берега. Эти слои озера не подвержены влиянию внешних загрязнителей. Вода проходит трёхступенчатую фильтрацию и двухфазную стерилизацию. Уровень pH — 7,2–8. Практичная ПЭТ-бутылка сохраняет свежесть воды.",
+                "price": {
+                    "current": 81,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 4.9,
+                    "count": 13360
+                },
+                "url": "https://vkusvill.ru/goods/voda-pitevaya-negazirovannaya-legenda-baykala-107572/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/1cce03d8-cf93-4d8b-ab51-c75b7327772d.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/1cce03d8-cf93-4d8b-ab51-c75b7327772d.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/1cce03d8-cf93-4d8b-ab51-c75b7327772d.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/60d95395-bc14-488e-a173-84147e2e9353.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/60d95395-bc14-488e-a173-84147e2e9353.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/60d95395-bc14-488e-a173-84147e2e9353.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50416,
+                        "name": "Вода",
+                        "slug": "voda",
+                        "url": "https://vkusvill.ru/goods/napitki/voda/"
+                    },
+                    {
+                        "id": 50415,
+                        "name": "Напитки",
+                        "slug": "napitki",
+                        "url": "https://vkusvill.ru/goods/napitki/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": null
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ООО \"ТК \"БАЙКАЛ АКВА\":Основной состав: Гидрокарбонат 50 - 100 мг/л; Хлориды 0,1 - 7мг/л; Сульфаты 1,0 - 10,0мг/л; Кислород 5 - 12мг/л; Кальций 10 - 25мг/л; Натрий 2 - 8мг/л; Магний 1,0 - 5мг/л; Калий 0,5 - 2мг/л; Общая минерализация 0,05 - 0,15г/л; Общая жесткость 1,0 - 2,0 мг-экв/л; рН 7,2 - 8,0           ;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 120236,
+                "xml_id": 120236,
+                "name": "Вода питьевая \"ТБАУ. ДЕТСКАЯ\", 330&nbsp;мл",
+                "slug": "voda-pitevaya-tbau-detskaya",
+                "description": "Негазированная питьевая вода для детского питания с мягким вкусом и сбалансированным минеральным составом. Можно использовать для приготовления смесей, каш или просто для питья. Низкая минерализация и слабая жёсткость делают воду комфортной для ежедневного употребления. Добывается из природного источника в Северной Осетии, проходит УФ-обработку и озонирование без применения хлора. Не требует кипячения. Подходит для детей с первых дней жизни. Крышка не откручивается",
+                "price": {
+                    "current": 41,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 5,
+                    "count": 36432
+                },
+                "url": "https://vkusvill.ru/goods/voda-pitevaya-tbau-detskaya-120236/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/829ba9a8-b3e1-451b-90d0-1cedfa1f66cd.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/829ba9a8-b3e1-451b-90d0-1cedfa1f66cd.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/829ba9a8-b3e1-451b-90d0-1cedfa1f66cd.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/7b3f82f7-8413-48f0-8c06-403eaf6f9084.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/7b3f82f7-8413-48f0-8c06-403eaf6f9084.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/7b3f82f7-8413-48f0-8c06-403eaf6f9084.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50416,
+                        "name": "Вода",
+                        "slug": "voda",
+                        "url": "https://vkusvill.ru/goods/napitki/voda/"
+                    },
+                    {
+                        "id": 50415,
+                        "name": "Напитки",
+                        "slug": "napitki",
+                        "url": "https://vkusvill.ru/goods/napitki/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": null
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ООО \"АГРОФИРМА ФАТ\":Основной состав, мг/л: магний 5-15; натрий 0-5; калий 0-5; кальций 20-55; гидрокарбонаты 120-250; хлориды 0,5-15; сульфаты 5-20; общая минерализация, г/л: 0,1-0,35; общая жёсткость, мг-экв/л: 2,0-4,0;<br>"
+                    }
+                ]
+            }
+        ],
+        "facets": {
+            "categories": [
+                {
+                    "category_id": 133,
+                    "category_name": "Вода",
+                    "subcategory_name": ""
+                }
+            ]
+        }
+    }
+}
