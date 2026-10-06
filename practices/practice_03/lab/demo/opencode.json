@@ -12,6 +12,7 @@
       "models": {
         "itmo-agent": {
           "name": "ITMO local 64k",
+          "options": {"reasoningEffort": "none"},
           "limit": {
             "context": 65536,
             "output": 4096
@@ -25,14 +26,20 @@
       "description": "Read-only local repository assistant",
       "mode": "primary",
       "prompt": "{file:./repo-system.txt}",
+      "model": "ollama/itmo-agent",
+      "temperature": 0.2,
       "steps": 8,
       "permission": {
         "*": "deny",
         "read": "allow",
         "glob": "allow",
-        "grep": "allow"
+        "grep": "allow",
+        "list": "allow",
+        "edit": "deny",
+        "bash": "deny",
+        "webfetch": "deny",
+        "external_directory": "deny"
       }
     }
   }
 }
-
