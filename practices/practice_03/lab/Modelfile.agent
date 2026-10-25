@@ -1,4 +1,9 @@
 FROM qwen3.5:4b
+# контекст 64k для агента: OpenCode шлёт длинный системный промпт и схемы инструментов; на M3 16 GB занимает 4.5 GB
 PARAMETER num_ctx 65536
+# низкая температура — стабильное поведение инструментов
 PARAMETER temperature 0.2
-
+# фиксируем сид для воспроизводимости
+PARAMETER seed 42
+# лимит генерируемых токенов; совпадает с limit.output в lab/demo/opencode.json
+PARAMETER num_predict 4096
