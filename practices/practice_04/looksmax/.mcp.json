@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "vkusvill": {
+      "type": "http",
+      "url": "https://mcp.vkusvill.ru/mcp"
+    },
+    "looksmax": {
+      "type": "stdio",
+      "command": ".venv/bin/python",
+      "args": ["server.py"]
+    },
+    "shadcn": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@jpisnice/shadcn-ui-mcp-server@3.0.0"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN:-}"
+      }
+    }
+  }
+}
