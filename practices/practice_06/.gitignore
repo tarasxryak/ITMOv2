@@ -1,0 +1,7 @@
+# These coursework artifacts must be committed even if excluded locally.
+!opencode.json
+!evidence/
+!evidence/**/
+!evidence/**/*.log
+__pycache__/
+*.pyc

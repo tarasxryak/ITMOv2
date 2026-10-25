@@ -1,0 +1,6 @@
+{
+  "status": "blocked_by_auto_review",
+  "destination": "external LLM provider",
+  "reason": "Exporting a bundle of project source, reports and evidence requires explicit authorization; no payload was sent by this rejected action.",
+  "alternative": "A separate judge run uses local Ollama at 127.0.0.1 without external model export."
+}

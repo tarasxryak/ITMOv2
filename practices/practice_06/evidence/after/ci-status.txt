@@ -1,0 +1,2 @@
+security: pass
+https://github.com/tarasxryak/ITMOv2/actions/runs/40214803941/job/121233507842
