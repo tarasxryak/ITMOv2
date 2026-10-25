@@ -1,0 +1,68 @@
+Standard library only: ready
+test_planner_json_is_not_repaired_or_invented (test_evidence.EvidenceTest.test_planner_json_is_not_repaired_or_invented) ... ok
+test_saved_attacks_match_current_code_and_expected_effects (test_evidence.EvidenceTest.test_saved_attacks_match_current_code_and_expected_effects) ... ok
+setUpClass (test_http.HttpTest) ... ERROR
+test_content_type (test_security.HandlerSecurityTest.test_content_type) ... ok
+test_headers_and_safe_errors (test_security.HandlerSecurityTest.test_headers_and_safe_errors) ... ok
+test_invalid_json_is_400 (test_security.HandlerSecurityTest.test_invalid_json_is_400) ... ok
+test_length_and_transfer_encoding (test_security.HandlerSecurityTest.test_length_and_transfer_encoding) ... ok
+test_bad_payloads_are_400 (test_security.SecurityTest.test_bad_payloads_are_400) ... ok
+test_context_separates_instructions_and_untrusted_data (test_security.SecurityTest.test_context_separates_instructions_and_untrusted_data) ... ok
+test_dangerous_decisions_are_denied_even_for_staff (test_security.SecurityTest.test_dangerous_decisions_are_denied_even_for_staff) ... ok
+test_duplicate_query_keys (test_security.SecurityTest.test_duplicate_query_keys) ... ok
+test_executor_checks_schema_and_path (test_security.SecurityTest.test_executor_checks_schema_and_path) ... ok
+test_expiry_logout_and_login_throttling (test_security.SecurityTest.test_expiry_logout_and_login_throttling) ... ok
+test_external_symlink_is_forbidden_not_internal_error (test_security.SecurityTest.test_external_symlink_is_forbidden_not_internal_error) ... ok
+test_files_deny_foreign_and_traversal (test_security.SecurityTest.test_files_deny_foreign_and_traversal) ... ok
+test_html_is_escaped (test_security.SecurityTest.test_html_is_escaped) ... ok
+test_login_throttling (test_security.SecurityTest.test_login_throttling) ... ok
+test_logs_are_sanitized (test_security.SecurityTest.test_logs_are_sanitized) ... ok
+test_other_profile_order_and_context_forbidden (test_security.SecurityTest.test_other_profile_order_and_context_forbidden) ... ok
+test_price_is_catalog_price (test_security.SecurityTest.test_price_is_catalog_price) ... ok
+test_private_routes_require_session (test_security.SecurityTest.test_private_routes_require_session) ... ok
+test_resource_limits (test_security.SecurityTest.test_resource_limits) ... ok
+test_role_header_has_no_authority (test_security.SecurityTest.test_role_header_has_no_authority) ... ok
+test_search_is_literal_and_scoped (test_security.SecurityTest.test_search_is_literal_and_scoped) ... ok
+test_search_preserves_case_insensitive_matching (test_security.SecurityTest.test_search_preserves_case_insensitive_matching) ... ok
+test_session_and_order_caps (test_security.SecurityTest.test_session_and_order_caps) ... ok
+test_sql_in_identifiers_is_400 (test_security.SecurityTest.test_sql_in_identifiers_is_400) ... ok
+test_symlink_cannot_disguise_private_file (test_security.SecurityTest.test_symlink_cannot_disguise_private_file) ... ok
+test_delete_of_fixture_root_stays_inside_exercise (test_service.SandboxTest.test_delete_of_fixture_root_stays_inside_exercise) ... ok
+test_external_directory_cannot_be_deleted (test_service.SandboxTest.test_external_directory_cannot_be_deleted) ... ok
+test_parent_paths_cannot_escape_exercise (test_service.SandboxTest.test_parent_paths_cannot_escape_exercise) ... ok
+test_symlink_cannot_escape_exercise (test_service.SandboxTest.test_symlink_cannot_escape_exercise) ... ok
+test_assistant_can_return_own_receipt (test_service.ShopTest.test_assistant_can_return_own_receipt) ... ok
+test_customer_can_buy_at_catalog_price (test_service.ShopTest.test_customer_can_buy_at_catalog_price) ... ok
+test_health_and_catalog (test_service.ShopTest.test_health_and_catalog) ... ok
+test_own_profile_and_receipt (test_service.ShopTest.test_own_profile_and_receipt) ... ok
+test_review_can_be_submitted_and_viewed (test_service.ShopTest.test_review_can_be_submitted_and_viewed) ... ok
+test_staff_can_export_with_staff_session (test_service.ShopTest.test_staff_can_export_with_staff_session) ... ok
+test_tokens_identify_distinct_users (test_service.ShopTest.test_tokens_identify_distinct_users) ... ok
+test_unknown_product_rejected (test_service.ShopTest.test_unknown_product_rejected) ... ok
+test_wrong_password_rejected (test_service.ShopTest.test_wrong_password_rejected) ... ok
+
+======================================================================
+ERROR: setUpClass (test_http.HttpTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private$SUBMISSION/practices/practice_06/lab/test_http.py", line 17, in setUpClass
+    cls.server = ThreadingHTTPServer(("127.0.0.1", 0), make_handler(cls.shop))
+                 ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 148, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 1] Operation not permitted
+
+----------------------------------------------------------------------
+Ran 40 tests in 0.063s
+
+FAILED (errors=1)
+make[2]: *** [test] Error 1
+make[1]: *** [test] Error 2
+make: *** [step6] Error 2

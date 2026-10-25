@@ -1,0 +1,13 @@
+{
+  "agent": "threat-judge",
+  "model": "vsellm/openai/gpt-5",
+  "input": "judge-input.md",
+  "task": "Оцени приложенный пакет доказательств по своему system prompt. Не вызывай инструменты и не выводи рассуждения.",
+  "status": "unavailable",
+  "answer": null,
+  "decision": null,
+  "input_sha256": "8a3fdd8cb74e9b3218ad2016a90811f66065907c3df0c1a2c5df357bcc6a9888",
+  "system_prompt": "judge-system-prompt.md",
+  "system_prompt_sha256": "62ab8b5c13606c95d48a633c47bfcac77440e53e0785741053c07a14e7cb2b28",
+  "diagnostic": "OpenCode did not complete within 10 seconds; no answer invented."
+}

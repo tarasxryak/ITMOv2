@@ -5,11 +5,11 @@
       "description": "Independent reviewer of the submitted threat model",
       "mode": "primary",
       "prompt": "{file:./judge-system-prompt.md}",
-      "steps": 8,
+      "steps": 1,
       "permission": {
         "*": "deny",
         "read": {
-          "*": "deny",
+          "*": "deny"
         }
       }
     },
@@ -17,7 +17,10 @@
       "description": "Model under test: produces a shop action without executing tools",
       "mode": "primary",
       "prompt": "{file:./planner-system.txt}",
-      "permission": { "*": "deny" }
+      "permission": {
+        "*": "deny"
+      },
+      "steps": 1
     }
   }
 }
