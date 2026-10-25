@@ -44,13 +44,13 @@ python3 tools/verify_evidence.py
 В `opencode.json` агенты `shop-planner` и `threat-judge` не имеют инструментов. Root-провайдер VseLLM использует ключ из окружения, секрет в файл не записывается. При необходимости выбрать другую настроенную модель через `--model`; одна и та же модель должна использоваться для всех четырёх planner-прогонов.
 
 ```sh
-python3 tools/run_models.py --phase before --model vsellm/openai/gpt-5
-python3 tools/run_models.py --phase after --model vsellm/openai/gpt-5
+python3 tools/run_models.py --phase before --model ollama/qwen3.5:4b
+python3 tools/run_models.py --phase after --model ollama/qwen3.5:4b
 python3 tools/build_judge_input.py
-python3 tools/run_models.py --phase after --model vsellm/openai/gpt-5 --judge
+python3 tools/run_models.py --phase after --model ollama/qwen3.5:4b --judge
 ```
 
-`run_models.py` сохраняет модель, задачу, хеш system prompt, точный ответ без reasoning, извлечённый JSON и результат его исполнения в новом учебном Shop. Некорректный ответ не ремонтируется; отсутствие ответа записывается как unavailable. Прямые сценарии executor не выдаются за ответы LLM. В ограниченной среде завершённые ответы не получены; после успешного прогона нужно обновить REPORT_02 по фактическим данным.
+`run_models.py` сохраняет модель, задачу, хеш system prompt, точный ответ без reasoning, извлечённый JSON и результат его исполнения в новом учебном Shop. Некорректный ответ не ремонтируется; отсутствие ответа записывается как unavailable. Прямые сценарии executor не выдаются за ответы LLM. Завершённые JSON-ответы не получены: VseLLM вернул 401, локальный Qwen — таймаут/отсутствие text-ответа; после успешного прогона нужно обновить REPORT_02 по фактическим данным.
 
 ## Сервис и демонстрация
 
@@ -65,3 +65,7 @@ PR следует открыть отдельной веткой `practice_06` �
 ## Ветка и публикация
 
 Подготовлена отдельная локальная ветка `submit/practice_06` от `main` и рабочее дерево `/tmp/itmo-hw6-submit`; исходные незакоммиченные изменения ДЗ № 5 сохранены. Ветка ДЗ № 6 не включает их. После настройки доступа к GitHub можно выполнить из исходного корня `sh practices/practice_06/submit.sh`: будет отправлена ветка `practice_06` и открыт PR в `main` с готовым описанием. Проверка TCP в CI — `.github/workflows/homework-06.yml`. Сама публикация требует успешного push и настоящего URL PR.
+
+Публикация выполнена: https://github.com/tarasxryak/ITMOv2/pull/6. Повторный полный прогон `make step6` и `make test` вне песочницы успешен: 43 теста Mini Shop и проверка 23 парных сценариев.
+
+GitHub Actions `security` прошёл: https://github.com/tarasxryak/ITMOv2/actions/runs/40214803941/job/121233507842 (полный `make step6` и `make test`).

@@ -14,7 +14,9 @@ def main():
         path = ROOT / name
         blocks.append(f"\n## Файл: {name}\n\n~~~~text\n{path.read_text() if path.exists() else 'MISSING: evidence unavailable'}\n~~~~\n")
     # A local preparation is not a PR URL. Missing publication must remain visible.
-    blocks.append("\n## Публикация\n\nНастоящая ссылка PR не предоставлена. Не начисляй балл за публикацию.\n")
+    published = ROOT / "evidence/pr-url.txt"
+    publication = published.read_text().strip() if published.exists() else "Настоящая ссылка PR не предоставлена. Не начисляй балл за публикацию."
+    blocks.append(f"\n## Публикация\n\n{publication}\n")
     target = ROOT / "judge-input.md"
     target.write_text("".join(blocks))
     print(f"Built {target.name}: {target.stat().st_size} bytes, {len(names)} source artifacts")

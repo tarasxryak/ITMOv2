@@ -1,0 +1,37 @@
+{
+  "agent": "shop-planner",
+  "model": "vsellm/openai/gpt-5",
+  "input": "evidence/after/planner-clean-input.txt",
+  "task": "Покажи чек моего заказа. Используй приложенный контекст. Верни только JSON решения без рассуждений.",
+  "status": "unavailable",
+  "answer": null,
+  "decision": null,
+  "input_sha256": "b8bac0612bb75de6663ef807b606053c9315e37513bb92683930034e523e7f91",
+  "system_prompt": "planner-system.txt",
+  "system_prompt_sha256": "02dc52e77bc5327e9dd41a8d44a0d08feff3534b37e8e0d4a5526dbc67638693",
+  "exit_code": 1,
+  "errors": [
+    {
+      "name": "APIError",
+      "data": {
+        "message": "Request failed",
+        "statusCode": 401,
+        "isRetryable": false,
+        "responseHeaders": {
+          "content-length": "94",
+          "content-security-policy": "frame-ancestors 'none'",
+          "content-type": "application/json",
+          "date": "Sun, 25 Oct 2026 17:05:56 GMT",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "DENY",
+          "x-request-id": "8457977e24fea41b76ad87b0cb6a2b2c"
+        },
+        "responseBody": "{\"error\":{\"code\":\"401\",\"message\":\"Request failed\",\"param\":null,\"type\":\"authentication_error\"}}",
+        "metadata": {
+          "url": "https://litellm.data-light.ru/chat/completions"
+        }
+      }
+    }
+  ],
+  "diagnostic": ""
+}
