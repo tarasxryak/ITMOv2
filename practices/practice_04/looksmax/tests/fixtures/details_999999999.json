@@ -1,0 +1,9 @@
+{
+    "ok": false,
+    "error": {
+        "code": "invalid_input",
+        "message": "Некорректный id товара",
+        "http_status": 400,
+        "retryable": false
+    }
+}

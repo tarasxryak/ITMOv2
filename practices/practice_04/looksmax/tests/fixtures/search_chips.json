@@ -1,0 +1,370 @@
+{
+    "ok": true,
+    "data": {
+        "meta": {
+            "q": "чипсы",
+            "limit": 5,
+            "total": 109,
+            "page": 1,
+            "pages": 22,
+            "has_more": true,
+            "personalized": false
+        },
+        "items": [
+            {
+                "id": 65291,
+                "xml_id": 65291,
+                "name": "Чипсы картофельные \"Сметана-лук\"",
+                "slug": "chipsy-kartofelnye-smetana-luk",
+                "description": "Чипсы из отборного картофеля, ювелирно нарезанные на ломтики по 2 милиметра и обжаренные в свежем растительном масле. Сочетание натуральных специй и сушёной зелени придаёт снеку узнаваемый солоноватый вкус с приятной сметанной кислинкой.",
+                "price": {
+                    "current": 152,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 4.9000000000000004,
+                    "count": 12850
+                },
+                "url": "https://vkusvill.ru/goods/chipsy-kartofelnye-smetana-luk-65291/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/7df8f4ff-ae8f-4daa-8ca4-e5746aa99545.webp?1707856438.5563",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/7df8f4ff-ae8f-4daa-8ca4-e5746aa99545.webp?1707856436.6576",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/7df8f4ff-ae8f-4daa-8ca4-e5746aa99545.webp?1707856440.5337"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/bc5b2e44-d1bd-4663-b2ba-3427b62ee281.webp?1707856402.4474",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/bc5b2e44-d1bd-4663-b2ba-3427b62ee281.webp?1707856400.0719",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/bc5b2e44-d1bd-4663-b2ba-3427b62ee281.webp?1707856404.8187"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/4610e029-b3f0-43f9-8501-6fe8caa66cf0.webp?1707856461.7381",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/4610e029-b3f0-43f9-8501-6fe8caa66cf0.webp?1707856461.2077",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/4610e029-b3f0-43f9-8501-6fe8caa66cf0.webp?1707856462.3741"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/1d5017e5-3003-47bc-af26-4e506b6d1db0.webp?1669920509.5334",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/1d5017e5-3003-47bc-af26-4e506b6d1db0.webp?1669920507.9478",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/1d5017e5-3003-47bc-af26-4e506b6d1db0.webp?1669920511.3774"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/d5d21ae9-2756-4dc6-8e7d-189d4ace8d1c.webp?1669920496.0312",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/d5d21ae9-2756-4dc6-8e7d-189d4ace8d1c.webp?1669920494.7606",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/d5d21ae9-2756-4dc6-8e7d-189d4ace8d1c.webp?1669920497.2634"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 51136,
+                        "name": "Все чипсы",
+                        "slug": "vse-chipsy",
+                        "url": "https://vkusvill.ru/goods/orekhi-chipsy-i-sneki/vse-chipsy/"
+                    },
+                    {
+                        "id": 51135,
+                        "name": "Орехи, чипсы и снеки",
+                        "slug": "orekhi-chipsy-i-sneki",
+                        "url": "https://vkusvill.ru/goods/orekhi-chipsy-i-sneki/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "ООО \"СНЭКПРОД\": белки 5.5 г, жиры 30 г, углеводы 53 г, соль - 1 г; 504 ккал<br>ООО \"Клин Снек\": белки 7.9 г, жиры 39.3 г, углеводы 47.1 г, в том числе сахара (общие) - 1.5 г, соль - 2.6 г; 573.7 ккал"
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ООО \"СНЭКПРОД\":картофель продовольственный свежий, масло подсолнечное рафинированное, вкусоароматическая добавка (соль пищевая, лук репчатый сушеный (порошок), сырный порошок (содержит молоко, лактозу), чеснок сушеный (порошок), дрожжевой экстракт, зелень петрушки сушеная, корень куркумы молотый, сметанный порошок (содержит молоко, лактозу)), лимон сушёный (порошок).;<br>ООО \"Клин Снек\":картофель продовольственный свежий, масло подсолнечное рафинированное дезодорированное, приправа вкусовая \"Сметана с зеленью\" (соль пищевая, сыворотка молочная сухая, молоко цельное сухое, лук репчатый (порошок), сахар, зелень петрушки сушеная, сырный порошок, чеснок сушеный (порошок), лимонный порошок, крахмал кукурузный, куркума молотая, экстракт чеснока, экстракт черного перца).;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 81955,
+                "xml_id": 81955,
+                "name": "Чипсы куриные с перцем",
+                "slug": "chipsy-kurinye-s-pertsem",
+                "description": "Сыровяленые чипсы из отборного филе грудки. С долгоиграющей структурой и выразительной перчинкой в пряном вкусе. В одной пачке 14,67 г белка и всего 75 ккал. Удобный перекус при любых обстоятельствах. На поверхности могут образоваться кристаллы соли — это естественный процесс, он не влияет на вкус и качество продукта.",
+                "price": {
+                    "current": 124,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 4.9000000000000004,
+                    "count": 2221
+                },
+                "url": "https://vkusvill.ru/goods/chipsy-kurinye-s-pertsem-81955/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/ed7c9cc0-4a8a-4fad-8c3b-a042ec18fd0f.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/ed7c9cc0-4a8a-4fad-8c3b-a042ec18fd0f.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/ed7c9cc0-4a8a-4fad-8c3b-a042ec18fd0f.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/ae95d9ec-273c-4600-a1de-6dec2dd8676c.webp?1724019819.5119",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/ae95d9ec-273c-4600-a1de-6dec2dd8676c.webp?1724019817.5457",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/ae95d9ec-273c-4600-a1de-6dec2dd8676c.webp?1724019821.3854"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/16ed61cc-81c3-4eda-82f0-c3fe35501abb.webp?1723753379.4125",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/16ed61cc-81c3-4eda-82f0-c3fe35501abb.webp?1723753377.0398",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/16ed61cc-81c3-4eda-82f0-c3fe35501abb.webp?1723753381.3513"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/9ad37ff8-57e5-4bfc-b3a4-2ef269f06232.webp?1723753415.4684",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/9ad37ff8-57e5-4bfc-b3a4-2ef269f06232.webp?1723753413.378",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/9ad37ff8-57e5-4bfc-b3a4-2ef269f06232.webp?1723753417.5614"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 50358,
+                        "name": "Мясные снеки и колбаски",
+                        "slug": "myasnye-sneki-i-kolbaski",
+                        "url": "https://vkusvill.ru/goods/kolbasa-sosiski-delikatesy/myasnye-sneki-i-kolbaski/"
+                    },
+                    {
+                        "id": 50349,
+                        "name": "Колбаса, сосиски, деликатесы",
+                        "slug": "kolbasa-sosiski-delikatesy",
+                        "url": "https://vkusvill.ru/goods/kolbasa-sosiski-delikatesy/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "белки 58.7 г, жиры 4.9 г, углеводы 5.6 г,, соль - 5.5 г; 301.3 ккал"
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "Егорьевская колбасно-гастрономическая фабрика:филе грудок кур, соль пищевая, вода питьевая, казеинат натрия, клетчатка (картофельная, цитрусовых), сахар, декстроза, растительные экстракты (ацеролы, зеленого чая, тимьяна), пряности (кориандр, чеснок, лук), экстракты пряностей (перец чили, паприка), экстракты фруктов (лайм, апельсин, лимон), сухой сироп глюкозы, дрожжевой экстракт, стартовая культура;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 26751,
+                "xml_id": 26751,
+                "name": "Чипсы картофельные с солью",
+                "slug": "chipsy-kartofelnye-s-solyu",
+                "description": "Картофельные чипсы являются одним из самых популярных снэков. Наши технологи усовершенствовали популярную рецептуру, сделав ее полностью натуральной. За основу мы берем молодой картофель, который обжариваем в свежем подсолнечном масле и приправляем морской солью. Из состава полностью исключены консерванты и ароматизаторы: только три ингредиента и ничего лишнего!",
+                "price": {
+                    "current": 125,
+                    "currency": "RUB",
+                    "old": 140,
+                    "discount_percent": 11,
+                    "discount_info": "Скидка по карте лояльности по 14.10"
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 4.7000000000000002,
+                    "count": 13178
+                },
+                "url": "https://vkusvill.ru/goods/chipsy-kartofelnye-s-solyu-26751/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/d9c4c29c-7c09-4ab2-bfc1-7f7a2d88b596.webp?1710490492.7159",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/d9c4c29c-7c09-4ab2-bfc1-7f7a2d88b596.webp?1710490490.6176",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/d9c4c29c-7c09-4ab2-bfc1-7f7a2d88b596.webp?1710490496.3273"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/a21b793f-3f2b-4448-a332-7647e1df5bd1.webp?1725820332.6689",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/a21b793f-3f2b-4448-a332-7647e1df5bd1.webp?1725820330.5793",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/a21b793f-3f2b-4448-a332-7647e1df5bd1.webp?1725820334.7365"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/907f5daf-ceb7-4836-a354-4e474596cc60.webp?1725820371.9034",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/907f5daf-ceb7-4836-a354-4e474596cc60.webp?1725820369.3957",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/907f5daf-ceb7-4836-a354-4e474596cc60.webp?1725820374.1046"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 51136,
+                        "name": "Все чипсы",
+                        "slug": "vse-chipsy",
+                        "url": "https://vkusvill.ru/goods/orekhi-chipsy-i-sneki/vse-chipsy/"
+                    },
+                    {
+                        "id": 51135,
+                        "name": "Орехи, чипсы и снеки",
+                        "slug": "orekhi-chipsy-i-sneki",
+                        "url": "https://vkusvill.ru/goods/orekhi-chipsy-i-sneki/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "ООО \"Клин Снек\": белки 6.4 г, жиры 34 г, углеводы 51 г, соль - 1.5 г; 535.6 ккал<br>ООО \"СНЭКПРОД\": белки 6.8 г, жиры 28.3 г, углеводы 57.7 г, соль - 1 г; 512.7 ккал<br>ООО \"СТАМБА\": белки 5.3 г, жиры 35.9 г, углеводы 54.6 г, соль - 2.6 г; 562.7 ккал<br>ОАО \"Машпищепрод\": белки 5 г, жиры 40 г, углеводы 49 г, соль - 1.5 г; 576 ккал"
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ООО \"Клин Снек\":картофель продовольственный свежий, масло подсолнечное высокоолеиновое рафинированное дезодорированное, соль морская пищевая.;<br>ООО \"СНЭКПРОД\":картофель продовольственный свежий, масло подсолнечное рафинированное, соль морская пищевая;<br>ООО \"СТАМБА\":картофель продовольственный свежий, масло подсолнечное рафинированное дезодорированное, соль морская пищевая.;<br>ОАО \"Машпищепрод\":картофель свежий, масло подсолнечное рафинированное дезодорированное, соль морская натуральная пищевая.;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 110380,
+                "xml_id": 110380,
+                "name": "Чипсы картофельные \"Сливочное масло с чёрным перцем и трюфелем\"",
+                "slug": "chipsy-kartofelnye-slivochnoe-maslo-s-chyernym-pertsem-i-tryufelem",
+                "description": "Картофельные чипсы с выразительным сочетанием сливочных и пряных нот. Тонкие ломтики хрустят и постепенно раскрывают вкус: сначала мягкая сливочная нота, затем появляется чёрный перец с лёгкой остротой и деликатный трюфельный оттенок. Подойдут для перекуса, хорошо сочетаются с соусами и могут дополнить закуски на столе",
+                "price": {
+                    "current": 157,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 4.7000000000000002,
+                    "count": 6815
+                },
+                "url": "https://vkusvill.ru/goods/chipsy-kartofelnye-slivochnoe-maslo-s-chyernym-pertsem-i-tryufelem-110380/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/fefbebb6-1888-45ca-b8d0-348a58f40005.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/fefbebb6-1888-45ca-b8d0-348a58f40005.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/fefbebb6-1888-45ca-b8d0-348a58f40005.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/65150876-3030-4393-9ab1-9d71d5f838c1.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/65150876-3030-4393-9ab1-9d71d5f838c1.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/65150876-3030-4393-9ab1-9d71d5f838c1.webp"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site/site_MiniWebP/3e1dafa9-4ab9-4dd7-845c-14afe6d7963e.webp",
+                        "medium": "https://img.vkusvill.ru/pim/images/site/site_BigWebP/3e1dafa9-4ab9-4dd7-845c-14afe6d7963e.webp",
+                        "large": "https://img.vkusvill.ru/pim/images/site/site_LargeWebP/3e1dafa9-4ab9-4dd7-845c-14afe6d7963e.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 51136,
+                        "name": "Все чипсы",
+                        "slug": "vse-chipsy",
+                        "url": "https://vkusvill.ru/goods/orekhi-chipsy-i-sneki/vse-chipsy/"
+                    },
+                    {
+                        "id": 51135,
+                        "name": "Орехи, чипсы и снеки",
+                        "slug": "orekhi-chipsy-i-sneki",
+                        "url": "https://vkusvill.ru/goods/orekhi-chipsy-i-sneki/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "белки 6 г, жиры 27.5 г, углеводы 59.2 г,, в том числе сахара (общие) - 2.8 г, соль - 2.4 г; 508.3 ккал"
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ООО \"СНЭКПРОД\":картофель продовольственный свежий, масло подсолнечное рафинированное, ароматизатор пищевой натуральный «Сливочное масло с чёрным перцем и трюфелем» (натуральные вкусоароматические вещества, вкусоароматические препараты, сыворотка молочная, соль пищевая молотая, декстроза, лук репчатый сушёный (порошок), дрожжевой экстракт, перец чёрный молотый, порошок трюфеля (трюфель сушёный)).;<br>"
+                    }
+                ]
+            },
+            {
+                "id": 74423,
+                "xml_id": 74423,
+                "name": "Чипсы картофельные с морской солью, розовым и черным перцем",
+                "slug": "chipsy-kartofelnye-s-morskoy-solyu",
+                "description": "Тонкие рифлёные чипсы с честным составом: они изготовлены всего из пяти ингредиентов, три из которых — соль и два вида перца. У чипсов дерзкий солоновато-пряный вкус с приятной остринкой. Классический снек для киномарафонов, которым, впрочем, приятно похрустеть на перерыве и на прогулке.",
+                "price": {
+                    "current": 134,
+                    "currency": "RUB",
+                    "old": null,
+                    "discount_percent": null,
+                    "discount_info": null
+                },
+                "unit": "шт",
+                "weight": {
+                    "value": 1,
+                    "unit": "кг"
+                },
+                "rating": {
+                    "average": 4.7999999999999998,
+                    "count": 8287
+                },
+                "url": "https://vkusvill.ru/goods/chipsy-kartofelnye-s-morskoy-solyu-74423/",
+                "images": [
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/d1f39b18-df74-4659-a1a3-251a3c9411db.webp?1739228605.1916",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/d1f39b18-df74-4659-a1a3-251a3c9411db.webp?1739228603.2847",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/d1f39b18-df74-4659-a1a3-251a3c9411db.webp?1739228606.9968"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/30fa5acb-79a6-4814-a23d-d7583c17b10d.webp?1725141269.5392",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/30fa5acb-79a6-4814-a23d-d7583c17b10d.webp?1725141267.3069",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/30fa5acb-79a6-4814-a23d-d7583c17b10d.webp?1725141271.5376"
+                    },
+                    {
+                        "small": "https://img.vkusvill.ru/pim/images/site_MiniWebP/5937d7ed-8edf-4181-93e1-2bf19f573605.webp?1725141310.5772",
+                        "medium": "https://img.vkusvill.ru/pim/images/site_BigWebP/5937d7ed-8edf-4181-93e1-2bf19f573605.webp?1725141308.5294",
+                        "large": "https://img.vkusvill.ru/pim/images/site_LargeWebP/5937d7ed-8edf-4181-93e1-2bf19f573605.webp?1725141312.587"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": 51136,
+                        "name": "Все чипсы",
+                        "slug": "vse-chipsy",
+                        "url": "https://vkusvill.ru/goods/orekhi-chipsy-i-sneki/vse-chipsy/"
+                    },
+                    {
+                        "id": 51135,
+                        "name": "Орехи, чипсы и снеки",
+                        "slug": "orekhi-chipsy-i-sneki",
+                        "url": "https://vkusvill.ru/goods/orekhi-chipsy-i-sneki/"
+                    }
+                ],
+                "properties": [
+                    {
+                        "name": "Пищевая и энергетическая ценность в 100 г",
+                        "value": "белки 5.5 г, жиры 38 г, углеводы 53 г,, соль - 1.8 г; 576 ккал"
+                    },
+                    {
+                        "name": "Состав",
+                        "value": "ООО \"СТАМБА\":картофель продовольственный свежий, масло подсолнечное рафинированное дезодорированное, соль морская пищевая, перец розовый молотый, перец черный молотый;<br>"
+                    }
+                ]
+            }
+        ],
+        "facets": {
+            "categories": [
+                {
+                    "category_id": 115,
+                    "category_name": "Снеки",
+                    "subcategory_name": ""
+                },
+                {
+                    "category_id": 711,
+                    "category_name": "Мясные снеки, мясные чипсы",
+                    "subcategory_name": ""
+                }
+            ]
+        }
+    }
+}
